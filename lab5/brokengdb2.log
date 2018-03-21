@@ -1,0 +1,51 @@
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./brokengdb2...done.
+(gdb) s
+(gdb) run
+Starting program: /home/Eric/ee355/lab5/brokengdb2 
+1No. of years to achieve target balance.
+[Inferior 1 (process 84) exited normally]
+(gdb) break 1[K1
+Breakpoint 1 at 0x4007be: file brokengdb2.cpp, line 1.
+(gdb) ruin[K[Kn
+Starting program: /home/Eric/ee355/lab5/brokengdb2 
+
+Breakpoint 1, main () at brokengdb2.cpp:11
+11		int balance=100;
+(gdb) s
+12		int target=1000;
+(gdb) s
+13		float rate = 0.1;
+(gdb) s
+14		int year = 0;
+(gdb) s
+17			float interest = balance * rate;
+(gdb) s
+18			balance = balance + interest;
+(gdb) s
+19			year++;
+(gdb) s
+20		} while ( balance >= target );
+(gdb) s
+21		cout << year << "No. of years to achieve target balance.\n";
+(gdb) s
+22		return 0;
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 88] will be killed.
+
+Quit anyway? (y or n) y

@@ -1,0 +1,334 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stam",
+				"stamina"
+			],
+			[
+				"def",
+				"defend"
+			],
+			[
+				"en",
+				"enemy"
+			],
+			[
+				"defe",
+				"defending"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"at",
+				"attack"
+			],
+			[
+				"st",
+				"stoi"
+			],
+			[
+				"nam",
+				"Name"
+			],
+			[
+				"cha",
+				"chanceMonster"
+			],
+			[
+				"cah",
+				"chanceMonster"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"map",
+				"mapArea"
+			],
+			[
+				"a",
+				"attack"
+			],
+			[
+				"const",
+				"constPair"
+			],
+			[
+				"c",
+				"commonArea"
+			],
+			[
+				"gpio",
+				"GPIO_PIN"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Compile",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Compile",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Compile",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "Package Control:",
+		"selected_items":
+		[
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 565.0
+	},
+	"console":
+	{
+		"height": 185.0,
+		"history":
+		[
+			"pwd",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1"
+	],
+	"file_history":
+	[
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/entity.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/palico.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/monster.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/hunter.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/main.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/types.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/GrovePi-EE250/ee250-lab04/part2/udpClient.py",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/GrovePi-EE250/ee250-lab04/part3/ultrasonicServer.py",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/GrovePi-EE250/ee250-lab04/part3/ultrasonicClient.py",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/GrovePi-EE250/ee250-lab04/part1/tcpClient.py",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/GrovePi-EE250/Software/Python/grove_ultrasonic.py",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/GrovePi-EE250/ee250-lab04/part2/udpServer2.py",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/GrovePi-EE250/ee250-lab04/part2/udpServer1.py",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/GrovePi-EE250/ee250-lab04/part1/README.md",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/include/types.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/include/monster.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/include/palico.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/include/hunter.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/include/entity.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/pa1.sublime-project",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/Makefile",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/monster.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/palico.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/entity.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/hunter.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/palico.o",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/entity.o",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/hunter.o",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/main.o",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/monster.o",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/pa1/cardinal.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/hw5/hw5_2.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/hw5/hw5_1.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/hw2/guess.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/hw4/hw4.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/hw2/t.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/hw2/fft.py",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/RIOT-EE250/cpu/cc2538/include/periph_cpu.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/RIOT-EE250/drivers/include/periph/gpio.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/RIOT-EE250/cpu/cc2538/include/cc2538_gpio.h",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/RIOT-EE250/cpu/cc2538/periph/adc.c",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/RIOT-EE250/examples/adc_lab/main.c",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/RIOT-EE250/examples/adc_lab/Makefile",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/lab3/Cioffi_Eric.txt",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/lab3/readme.txt",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/lab3/fibonacci_dp.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/lab3/fibonacci_recursive.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/lab3/fibonacci.py",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee355/lab3/fibonacci_resursive.cpp",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/RIOT-EE250/cpu/cc2538/periph/gpio.c",
+		"/C/Users/Eric/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/Eric/ee250/RIOT-EE250/tests/periph_gpio/main.c"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pause(true)",
+			"cin.get()",
+			"slay",
+			"glor",
+			"()\n",
+			"y.first",
+			"x.first",
+			"    ",
+			"hpp",
+			"cxx",
+			"ordered",
+			"odered",
+			"gpio.h",
+			"ADC_NUMOF"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"pause(\"Press 'Enter' to continue...\")",
+			"cin.ignore()",
+			"rhs.x",
+			"lhs.x",
+			"$(CXX)",
+			"const"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 41.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pa1.sublime-project",
+	"replace":
+	{
+		"height": 55.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

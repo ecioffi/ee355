@@ -1,0 +1,1 @@
+Everything works. Compile with --std=c++11.

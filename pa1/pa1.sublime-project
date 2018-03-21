@@ -1,0 +1,22 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"bash",
+				"cd /bin && ls"
+			],
+			"name": "Compile",
+			"selector": "text,source",
+			"shell": true,
+			"working_dir": "${project_path}"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}

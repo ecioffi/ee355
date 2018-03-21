@@ -1,0 +1,60 @@
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./brokengdb3...done.
+(gdb) run
+Starting program: /home/Eric/ee355/lab5/brokengdb3 
+Creating Node, 1 are in existence right now
+Creating Node, 2 are in existence right now
+Creating Node, 3 are in existence right now
+Creating Node, 4 are in existence right now
+The fully created list is:
+4
+3
+2
+1
+
+Now removing elements:
+Creating Node, 5 are in existence right now
+Destroying Node, 4 are in existence right now
+4
+3
+2
+1
+
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401014 in Node<int>::next (this=0x0) at brokengdb3.cpp:22
+22	  Node<T>* next () const { return next_; }
+(gdb) backr[Ktrqace[K[K[K[Kace
+#0  0x0000000000401014 in Node<int>::next (this=0x0) at brokengdb3.cpp:22
+#1  0x0000000000400f2e in LinkedList<int>::remove (this=0x614c20, item_to_remove=@0x7ffffffde0fc: 1)
+    at brokengdb3.cpp:71
+#2  0x0000000000400bd6 in main (argc=1, argv=0x7ffffffde208) at brokengdb3.cpp:114
+(gdb) 
+#0  0x0000000000401014 in Node<int>::next (this=0x0) at brokengdb3.cpp:22
+#1  0x0000000000400f2e in LinkedList<int>::remove (this=0x614c20, item_to_remove=@0x7ffffffde0fc: 1)
+    at brokengdb3.cpp:71
+#2  0x0000000000400bd6 in main (argc=1, argv=0x7ffffffde208) at brokengdb3.cpp:114
+(gdb) 
+#0  0x0000000000401014 in Node<int>::next (this=0x0) at brokengdb3.cpp:22
+#1  0x0000000000400f2e in LinkedList<int>::remove (this=0x614c20, item_to_remove=@0x7ffffffde0fc: 1)
+    at brokengdb3.cpp:71
+#2  0x0000000000400bd6 in main (argc=1, argv=0x7ffffffde208) at brokengdb3.cpp:114
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 92] will be killed.
+
+Quit anyway? (y or n) y

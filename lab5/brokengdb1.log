@@ -1,0 +1,71 @@
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./brokengdb1...done.
+(gdb) run
+Starting program: /home/Eric/ee355/lab5/brokengdb1 
+0[Inferior 1 (process 60) exited normally]
+(gdb) break 22
+Breakpoint 1 at 0x40091a: file brokengdb1.cpp, line 22.
+(gdb) run
+Starting program: /home/Eric/ee355/lab5/brokengdb1 
+
+Breakpoint 1, factorial (n=4) at brokengdb1.cpp:22
+22	        result*=n;
+(gdb) print n
+$1 = 4
+(gdb) print result
+$2 = 1
+(gdb) run[K[K[Ks
+20	    while(n--)
+(gdb) s
+
+Breakpoint 1, factorial (n=3) at brokengdb1.cpp:22
+22	        result*=n;
+(gdb) print reslut
+(gdb) print reslut[K[K[Kult
+$3 = 4
+(gdb) s
+20	    while(n--)
+(gdb) c
+Continuing.
+
+Breakpoint 1, factorial (n=2) at brokengdb1.cpp:22
+22	        result*=n;
+(gdb) print re
+Display all 195 possibilities? (y or n)
+(gdb) print re
+(gdb) print re[C[C[C[C[C[Cc[Ksprint result
+$4 = 12
+(gdb) c
+Continuing.
+
+Breakpoint 1, factorial (n=1) at brokengdb1.cpp:22
+22	        result*=n;
+(gdb) print result
+$5 = 24
+(gdb) c
+Continuing.
+
+Breakpoint 1, factorial (n=0) at brokengdb1.cpp:22
+22	        result*=n;
+(gdb) cprint result
+$6 = 24
+(gdb) c
+Continuing.
+0[Inferior 1 (process 64) exited normally]
+(gdb) cprint result
+$7 = '\000' <repeats 113 times>
+(gdb) quitr
+(gdb) quit

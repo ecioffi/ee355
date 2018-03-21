@@ -1,0 +1,1 @@
+Everything works. No references. Compiles with --std=c++11
