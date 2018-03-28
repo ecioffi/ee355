@@ -1,7 +1,786 @@
-It	1	in.txt(1): 1
-The	1	in2.txt(1): 1
-day	1	in2.txt(1): 2
-of	2	in.txt(2): 5, 11
-the	5	in.txt(2): 3, 9	in2.txt(3): 5, 6, 7
-times.	1	in.txt(1): 12
-was	3	in2.txt(1): 3
+"Woe	1	in2.txt(1): 446
+"shall	1	in.txt(1): 585
+"the	2	in2.txt(1): 625
+1774.	1	in.txt(1): 1150
+1778.	1	in.txt(1): 1191
+1861	1	in.txt(1): 10
+4,	2	in.txt(1): 9	in2.txt(1): 9
+Abraham	2	in.txt(1): 5	in2.txt(1): 5
+Address	2	in2.txt(1): 3
+Administration.	1	in.txt(1): 395
+All	6	in.txt(4): 551, 1828, 1944, 2183	in2.txt(2): 163, 272
+Almighty	2	in2.txt(1): 441
+American	3	in2.txt(1): 476
+Apprehension	1	in.txt(1): 91
+Association	1	in.txt(1): 1148
+At	2	in2.txt(1): 12
+Bible	1	in2.txt(1): 374
+But	3	in.txt(3): 1214, 1938, 1975
+Can	2	in.txt(2): 2798, 2808
+Christianity,	1	in.txt(1): 3477
+Congress	4	in.txt(4): 554, 822, 2033, 2046
+Constitution	18	in.txt(18): 46, 407, 460, 763, 803, 971, 1206, 1311, 1332, 1854, 1895, 1968, 2027, 2040, 2053, 2592, 2919, 3419
+Constitution--to	1	in.txt(1): 561
+Constitution.	2	in.txt(2): 888, 1138
+Court,	2	in.txt(2): 2328, 2466
+Descending	1	in.txt(1): 1106
+During	1	in.txt(1): 889
+Executive	1	in.txt(1): 3158
+Fellow-Citizens	1	in.txt(1): 11
+First	1	in.txt(1): 1
+For	1	in.txt(1): 2151
+God	3	in2.txt(3): 544, 569, 649
+God,	2	in2.txt(2): 380, 488
+Government	13	in2.txt(1): 307
+Government.	2	in.txt(2): 907, 2376
+He	2	in2.txt(2): 500, 507
+Him?	1	in2.txt(1): 548
+His	5	in2.txt(3): 384, 443, 497
+I	44	in2.txt(1): 122
+If	9	in2.txt(1): 471
+Inaugural	2	in.txt(1): 2	in2.txt(1): 2
+Independence	1	in.txt(1): 1160
+Is	4	in.txt(4): 1843, 2199, 2781, 3206
+It	10	in.txt(9): 151, 519, 874, 993, 1139, 1151, 1163, 1249, 2519	in2.txt(1): 389
+Lincoln	2	in2.txt(1): 6
+MARCH	2	in.txt(1): 8	in2.txt(1): 8
+Magistrate	1	in.txt(1): 3122
+Must	1	in.txt(1): 2045
+National	3	in.txt(3): 887, 1023, 2918
+Neither	2	in2.txt(2): 322, 338
+Nor	1	in.txt(1): 2505
+North,	1	in.txt(1): 3248
+Now,	2	in.txt(1): 593	in2.txt(1): 54
+One	2	in.txt(2): 1085, 2553
+Perpetuity	1	in.txt(1): 979
+Plainly	1	in.txt(1): 2223
+Presidential	1	in2.txt(1): 22
+Resolved,	1	in.txt(1): 272
+SATURDAY,	1	in2.txt(1): 7
+Shall	1	in.txt(1): 2014
+South	1	in2.txt(1): 513
+Southern	1	in.txt(1): 100
+State,	1	in.txt(1): 476
+States"?	1	in.txt(1): 785
+States.	2	in.txt(2): 1350, 3145
+Such	1	in.txt(1): 3408
+Supreme	2	in.txt(2): 2327, 2465
+Territory,	1	in.txt(1): 338
+That	3	in2.txt(1): 433
+The	19	in2.txt(3): 98, 425, 440
+There	4	in.txt(4): 122, 435, 625, 2091
+They	2	in.txt(2): 908, 2763
+This	2	in.txt(2): 2580, 2860
+Those	1	in.txt(1): 217
+To	4	in.txt(3): 570, 1727, 3074	in2.txt(1): 284
+Union	17	in.txt(14): 973, 1027, 1120, 1129, 1132, 1219, 1234, 1316, 1343, 1410, 1696, 1734, 1835, 2176	in2.txt(3): 186, 204, 301
+Union,	3	in2.txt(1): 255
+Union."	1	in.txt(1): 1213
+United	5	in.txt(5): 14, 49, 1051, 1294, 1499
+Whenever	1	in.txt(1): 2872
+While	4	in.txt(3): 1537, 2921, 3318	in2.txt(1): 171
+Why	1	in.txt(1): 3191
+With	2	in2.txt(2): 130, 635
+Yet,	2	in2.txt(1): 567
+a	59	in.txt(52): 19, 107, 256, 613, 649, 693, 729, 739, 883, 1004, 1055, 1088, 1210, 1224, 1358, 1400, 1635, 1661, 1664, 1667, 1744, 1779, 1826, 1884, 1889, 1907, 1911, 1922, 1935, 1984, 2109, 2121, 2132, 2142, 2159, 2162, 2211, 2262, 2283, 2286, 2346, 2416, 2430, 2521, 2617, 2647, 2964, 3036, 3101, 3196, 3383, 3479	in2.txt(7): 39, 45, 267, 364, 400, 542, 698
+ability,	1	in.txt(1): 1325
+absorbs	1	in2.txt(1): 81
+accept	2	in2.txt(1): 231
+accession	1	in.txt(1): 105
+achieve	1	in2.txt(1): 695
+acquiesce,	2	in.txt(2): 2082, 2118
+act	1	in.txt(1): 2972
+action.	1	in.txt(1): 3474
+acts	3	in.txt(3): 820, 853, 1281
+add	1	in.txt(1): 2979
+address	4	in.txt(2): 32, 1722	in2.txt(2): 31, 174
+adjust	1	in.txt(1): 3496
+administered	1	in.txt(1): 901
+administration.	1	in.txt(1): 1996
+advantageous	1	in.txt(1): 2790
+affection.	1	in.txt(1): 3591
+affirm	1	in.txt(1): 1712
+afforded	1	in.txt(1): 2968
+again	2	in.txt(2): 2857, 3624
+against	3	in.txt(2): 1289, 1489	in2.txt(1): 386
+aggressors.	1	in.txt(1): 3537
+ago,	1	in2.txt(1): 618
+aliens	2	in.txt(2): 2799, 2815
+all	34	in2.txt(6): 105, 153, 166, 575, 692, 707
+all,	3	in2.txt(1): 642
+allows	1	in.txt(1): 2991
+also	2	in.txt(2): 2358, 3153
+altogether	1	in2.txt(1): 182
+always	2	in.txt(1): 2245	in2.txt(1): 545
+am	1	in.txt(1): 3564
+amending	1	in.txt(1): 2888
+amendment,	1	in.txt(1): 3042
+amendments,	1	in.txt(1): 2927
+among	7	in.txt(6): 95, 344, 1491, 1531, 2206, 2819	in2.txt(1): 703
+an	6	in.txt(3): 1059, 2727, 3372	in2.txt(3): 29, 159, 360
+anarchy.	1	in.txt(1): 2233
+and	124	in2.txt(24): 52, 73, 84, 119, 126, 205, 227, 238, 269, 287, 363, 368, 375, 381, 505, 512, 584, 593, 632, 683, 687, 696, 700, 705
+angels	1	in.txt(1): 3634
+another	2	in2.txt(1): 607
+another.	1	in.txt(1): 434
+answered.	1	in2.txt(1): 432
+anticipated	1	in2.txt(1): 339
+anxiously	1	in2.txt(1): 156
+any	29	in2.txt(2): 394, 532
+anywhere.	1	in.txt(1): 1494
+appearing	1	in2.txt(1): 15
+appointed	1	in2.txt(1): 498
+arbitrarily	1	in.txt(1): 2167
+are	22	in2.txt(2): 630, 665
+armed	1	in.txt(1): 329
+arrangement,	1	in.txt(1): 2288
+as	38	in2.txt(5): 110, 116, 517, 612, 648
+ascribe	1	in2.txt(1): 546
+assail	1	in.txt(1): 3526
+assert	1	in.txt(1): 997
+association	1	in.txt(1): 1060
+assured	1	in.txt(1): 1956
+at	7	in.txt(5): 72, 747, 1697, 2704, 3314	in2.txt(2): 35, 55
+attempt	2	in.txt(2): 1526, 1555
+attention	2	in.txt(1): 364	in2.txt(1): 83
+audacity	1	in.txt(1): 1875
+authority	4	in.txt(4): 674, 1291, 2933, 3126
+authority.	1	in.txt(1): 1442
+avert	1	in2.txt(1): 169
+away.	1	in2.txt(1): 566
+battle	1	in2.txt(1): 682
+be	83	in.txt(75): 52, 120, 386, 412, 415, 493, 502, 517, 586, 635, 658, 662, 684, 702, 725, 732, 745, 773, 826, 834, 872, 1053, 1073, 1183, 1230, 1344, 1356, 1397, 1425, 1433, 1437, 1449, 1475, 1482, 1506, 1524, 1560, 1590, 1626, 1640, 1652, 1718, 1765, 1831, 1841, 1981, 2018, 2146, 2323, 2337, 2387, 2411, 2423, 2458, 2486, 2565, 2578, 2615, 2658, 2664, 2685, 2702, 2737, 2810, 2902, 2942, 3022, 3105, 3195, 3242, 3364, 3371, 3394, 3404, 3577	in2.txt(8): 48, 96, 422, 431, 457, 591, 604, 623
+because	1	in2.txt(1): 450
+been	6	in.txt(4): 125, 146, 1856, 1898	in2.txt(2): 66, 437
+before	5	in2.txt(1): 351
+before?	1	in.txt(1): 2797
+being	8	in2.txt(1): 176
+believers	1	in2.txt(1): 540
+belonging	1	in.txt(1): 1460
+benefits,	1	in.txt(1): 1756
+better	4	in.txt(4): 1572, 2422, 3209, 3633
+beyond	2	in.txt(2): 1472, 2746
+binding	1	in.txt(1): 2338
+bloodshed	1	in.txt(1): 1427
+bonds	1	in.txt(1): 3589
+borne	2	in.txt(1): 2424	in2.txt(1): 680
+both	6	in2.txt(2): 428, 510
+bread	1	in2.txt(1): 407
+brief	1	in.txt(1): 936
+broad	1	in.txt(1): 3613
+build	1	in.txt(1): 2726
+but	19	in2.txt(5): 214, 256, 415, 461, 492
+by	47	in2.txt(6): 208, 303, 466, 523, 579, 606
+called	1	in2.txt(1): 68
+calmly	1	in.txt(1): 3354
+came,	1	in2.txt(1): 527
+can	25	in.txt(25): 411, 661, 1069, 1262, 1840, 1871, 1979, 1999, 2421, 2613, 2656, 2712, 2716, 2759, 2764, 2805, 2818, 2827, 2882, 2900, 3149, 3335, 3363, 3403, 3529
+candid	1	in.txt(1): 2438
+care,	1	in.txt(1): 1329
+case,	2	in.txt(2): 2392, 2404
+cases	4	in.txt(4): 577, 2369, 2531, 2668
+cause	3	in.txt(1): 128	in2.txt(2): 280, 342
+cease	2	in.txt(1): 2845	in2.txt(1): 347
+cease.	2	in2.txt(1): 356
+central	1	in.txt(1): 2225
+certainly	1	in.txt(1): 1929
+change	2	in.txt(2): 1638, 3447
+changing	1	in.txt(1): 2246
+checks	1	in.txt(1): 2241
+cherish	2	in.txt(1): 2185	in2.txt(1): 697
+choose	1	in.txt(1): 815
+chords	1	in.txt(1): 3594
+chosen	1	in.txt(1): 3014
+circumstances,	1	in.txt(1): 2959
+citizen	1	in.txt(1): 2439
+city	1	in2.txt(1): 194
+civil	2	in2.txt(1): 161
+claim	2	in.txt(2): 506, 2178
+class	1	in.txt(1): 2062
+clear	1	in.txt(1): 264
+close.	1	in.txt(1): 3567
+colored	1	in2.txt(1): 248
+come,	2	in2.txt(2): 460, 491
+commission	1	in.txt(1): 1822
+competent	2	in.txt(2): 1514, 3494
+compose	1	in.txt(1): 2210
+conclusive	1	in.txt(1): 367
+confederacy	1	in.txt(1): 2161
+confided	1	in.txt(1): 1445
+confirmed	1	in.txt(1): 1123
+conflict	3	in2.txt(2): 345, 353
+consequence	2	in.txt(2): 486, 666
+consideration	1	in.txt(1): 2365
+constantly	1	in2.txt(1): 67
+constituted	2	in2.txt(1): 266
+constitutionally	1	in.txt(1): 1414
+contain	1	in.txt(1): 2007
+content	2	in.txt(2): 685, 1832
+continue	3	in.txt(2): 1588, 2778	in2.txt(1): 573
+continued	2	in2.txt(1): 495
+contract	2	in.txt(2): 1067, 1089
+contrary.	1	in.txt(1): 1391
+controlled	1	in.txt(1): 2147
+controversies,	1	in.txt(1): 2067
+convention	1	in.txt(1): 2984
+could	4	in.txt(2): 603, 2426	in2.txt(2): 95, 429
+country,	1	in.txt(1): 2861
+course	2	in.txt(1): 1622	in2.txt(1): 46
+crimes.	1	in.txt(1): 348
+current	1	in.txt(1): 1629
+dare	1	in2.txt(1): 397
+decided	1	in.txt(1): 2324
+decisions	3	in.txt(3): 2335, 2462, 2549
+declarations	2	in2.txt(1): 64
+declared	2	in.txt(2): 1199, 1406
+defend	2	in.txt(2): 1415, 3561
+deliberately,	1	in.txt(1): 3390
+delivered	3	in2.txt(1): 177
+demanded,	1	in.txt(1): 424
+denied?	1	in.txt(1): 1857
+deny	1	in.txt(1): 2332
+depart	1	in.txt(1): 3083
+departure	1	in2.txt(1): 533
+depends,	1	in2.txt(1): 108
+deprive	1	in.txt(1): 1910
+desirous	1	in.txt(1): 2914
+despotism	1	in.txt(1): 2300
+destroy	4	in.txt(3): 1035, 1694, 3546	in2.txt(1): 197
+detail	1	in2.txt(1): 43
+did	1	in.txt(1): 223
+differences,	1	in.txt(1): 3219
+difficulty.	2	in.txt(2): 946, 3504
+directed	1	in2.txt(1): 157
+discern	1	in2.txt(1): 530
+discretion	1	in.txt(1): 1650
+dismember	1	in.txt(1): 2895
+dispute.	1	in.txt(1): 2585
+dissatisfied	3	in.txt(3): 3414, 3457, 3509
+distinguished	1	in.txt(1): 896
+disunion	1	in.txt(1): 2186
+divide	3	in2.txt(1): 206
+divorced	1	in.txt(1): 2738
+do	18	in2.txt(4): 312, 550, 554, 691
+does	5	in.txt(5): 1097, 2028, 2041, 2054, 2268
+domestic	2	in.txt(2): 296, 3062
+drawn	2	in2.txt(2): 599, 608
+drop	1	in2.txt(1): 596
+due	1	in2.txt(1): 520
+duration	1	in2.txt(1): 332
+duties	1	in.txt(1): 1468
+each	6	in.txt(5): 288, 770, 2605, 2723, 2750	in2.txt(1): 382
+easier	2	in.txt(1): 2802	in2.txt(1): 361
+educated	1	in.txt(1): 2191
+effects	1	in2.txt(1): 207
+either	4	in.txt(4): 2773, 2945, 3030, 3221
+either.	1	in.txt(1): 3448
+element	1	in.txt(1): 1246
+eminent	1	in.txt(1): 2503
+encouraging	1	in2.txt(1): 127
+endangered.	1	in.txt(1): 121
+endure	1	in.txt(1): 1029
+enemies.	1	in.txt(1): 3578
+enforce	1	in.txt(1): 1548
+enforced,	2	in.txt(2): 827, 2608
+engaged	1	in.txt(1): 1179
+enjoins	1	in.txt(1): 1335
+enter	1	in.txt(1): 929
+enters	1	in.txt(1): 59
+equal	3	in.txt(3): 608, 3211, 3301
+escaping	1	in.txt(1): 481
+essence	1	in.txt(1): 2231
+establishing	1	in.txt(1): 1204
+even	2	in2.txt(2): 302, 350
+ever	4	in.txt(4): 1002, 1897, 1980, 2614
+every	6	in2.txt(2): 71, 595
+evidence	2	in.txt(2): 136, 368
+evils	1	in.txt(1): 2428
+except	1	in.txt(1): 1037
+exclusively,	1	in.txt(1): 303
+executed	1	in.txt(1): 1346
+executive	1	in.txt(1): 903
+exercised	1	in.txt(1): 2943
+exigency	1	in.txt(1): 1647
+existed	1	in.txt(1): 144
+existing	3	in.txt(3): 1658, 2879, 2958
+expected	1	in2.txt(1): 324
+expiration	1	in2.txt(1): 57
+expressed,	1	in.txt(1): 984
+extend	1	in2.txt(1): 288
+extended,	1	in.txt(1): 2566
+extent	2	in.txt(2): 1322, 2493
+fabric	1	in.txt(1): 320
+face	1	in.txt(1): 2768
+faces,	1	in2.txt(1): 414
+fact,	1	in.txt(1): 1143
+faith	2	in.txt(2): 1169, 3224
+far	3	in.txt(3): 1369, 1599, 3094
+favor	1	in.txt(1): 2960
+favored	1	in.txt(1): 3490
+fellow-countrymen,	1	in.txt(1): 3510
+few	1	in.txt(1): 2648
+fifty	1	in2.txt(1): 585
+fighting,	1	in.txt(1): 2846
+find	2	in.txt(2): 865, 1112
+firm	1	in.txt(1): 3480
+first	1	in.txt(1): 880
+fitting	1	in2.txt(1): 51
+fixed	1	in.txt(1): 2460
+followed	1	in.txt(1): 1627
+follows	1	in.txt(1): 1250
+for	33	in.txt(24): 74, 129, 251, 425, 533, 755, 837, 934, 1010, 1043, 1201, 1477, 1534, 1575, 2010, 2096, 2131, 2418, 2596, 3015, 3140, 3296, 3304, 3472	in2.txt(9): 28, 133, 294, 325, 359, 453, 641, 675, 684
+forced	1	in.txt(1): 1438
+foreign	2	in.txt(2): 2601, 2678
+forever,	1	in.txt(1): 1030
+form	2	in.txt(2): 1209, 2303
+formidably	1	in.txt(1): 958
+forth	1	in2.txt(1): 69
+four	4	in.txt(2): 940, 3346	in2.txt(2): 59, 150
+framed	1	in.txt(1): 1982
+fraternal	1	in.txt(1): 1678
+friends	1	in.txt(1): 2804
+friends?	1	in.txt(1): 2820
+from	18	in2.txt(3): 178, 408, 534
+frustrated	2	in.txt(2): 3395, 3405
+fugitive-	1	in.txt(1): 2587
+full	1	in.txt(1): 226
+fully.	1	in2.txt(1): 439
+fundamental	2	in2.txt(1): 367
+further	1	in.txt(1): 1165
+gain	1	in.txt(1): 2841
+generally	2	in.txt(1): 916	in2.txt(1): 252
+given	4	in.txt(4): 413, 417, 2391, 3289
+glad	1	in.txt(1): 1702
+good	4	in.txt(4): 601, 621, 3401, 3470
+governments.	1	in.txt(1): 992
+gravest	1	in.txt(1): 346
+great	6	in2.txt(1): 77
+greatly	1	in.txt(1): 895
+guarantees	1	in.txt(1): 765
+had	3	in.txt(3): 230, 238, 1003
+hands,	1	in.txt(1): 3507
+has	9	in.txt(6): 123, 140, 1855, 1896, 3161, 3485	in2.txt(3): 335, 436, 442
+have	22	in.txt(20): 180, 202, 211, 898, 909, 1606, 1795, 2483, 3045, 3080, 3110, 3132, 3287, 3299, 3416, 3439, 3530, 3539, 3552, 3582	in2.txt(2): 65, 679
+having	5	in2.txt(1): 494
+he	1	in.txt(1): 58
+hearthstone	1	in.txt(1): 3609
+held	4	in.txt(4): 469, 870, 2236, 3071
+here	1	in.txt(1): 1623
+high	2	in.txt(1): 2362	in2.txt(1): 131
+him	5	in2.txt(1): 676
+his	6	in2.txt(2): 685, 688
+hold	2	in.txt(2): 961, 3458
+holding	2	in.txt(2): 1518, 3099
+hope	3	in2.txt(1): 132
+hopes,	1	in.txt(1): 1761
+hostility	1	in.txt(1): 1496
+how	1	in.txt(1): 699
+human	1	in.txt(1): 1863
+hundred	1	in2.txt(1): 583
+husband	1	in.txt(1): 2733
+idea	1	in.txt(1): 2226
+identity	1	in.txt(1): 2203
+if	12	in2.txt(1): 568
+ills	2	in.txt(2): 1791, 1804
+immunities	1	in.txt(1): 779
+impending	1	in2.txt(1): 160
+implied	1	in.txt(1): 3106
+impossible	1	in.txt(1): 1033
+imposts;	1	in.txt(1): 1470
+impunity	1	in.txt(1): 866
+in	80	in2.txt(8): 42, 138, 192, 258, 404, 484, 541, 645
+inadmissible;	1	in.txt(1): 2291
+inauguration	1	in.txt(1): 881
+including	1	in.txt(1): 3067
+indicated	1	in.txt(1): 1624
+individuals	1	in.txt(1): 1952
+injure	1	in.txt(1): 3338
+instance	1	in.txt(1): 1886
+instant	1	in.txt(1): 2468
+institution	1	in.txt(1): 190
+institutions,	1	in.txt(1): 2864
+insurgent	1	in2.txt(1): 189
+insurrectionary	1	in.txt(1): 1297
+intention	1	in.txt(1): 544
+intercourse,	2	in.txt(2): 2772, 2855
+interest.	1	in2.txt(1): 271
+interfere	2	in.txt(2): 187, 3059
+intervals.	1	in.txt(1): 3317
+introduced,	1	in.txt(1): 726
+invasion,	1	in.txt(1): 1484
+invokes	1	in2.txt(1): 383
+irrevocably	1	in.txt(1): 2459
+is	50	in.txt(45): 85, 152, 304, 373, 436, 454, 520, 548, 626, 647, 656, 676, 875, 956, 977, 980, 994, 1121, 1133, 1235, 1317, 1613, 1783, 1865, 1940, 2092, 2100, 2229, 2256, 2278, 2289, 2304, 2307, 2380, 2456, 2506, 2520, 2538, 2560, 2572, 2581, 3169, 3220, 3467, 3515	in2.txt(5): 25, 93, 109, 142, 478
+issue	1	in.txt(1): 3518
+it	43	in2.txt(8): 120, 141, 198, 236, 334, 454, 572, 621
+it,	4	in2.txt(1): 165
+it.	8	in.txt(5): 2871, 2898, 2974, 3166, 3407	in2.txt(3): 170, 263, 321
+it;	1	in.txt(1): 3433
+its	11	in.txt(11): 294, 300, 465, 1007, 1011, 1258, 1755, 1757, 1760, 2863, 3114
+itself	2	in2.txt(1): 354
+itself.	4	in.txt(4): 1047, 1130, 1418, 2630
+judge	1	in2.txt(1): 418
+judges.	1	in.txt(1): 2518
+judgments	1	in2.txt(1): 626
+just	2	in2.txt(2): 401, 699
+justice,	1	in.txt(1): 3241
+keep	1	in.txt(1): 620
+knew	1	in2.txt(1): 273
+known	2	in.txt(1): 718	in2.txt(1): 112
+labor,	1	in.txt(1): 499
+land	1	in.txt(1): 3491
+lash	1	in2.txt(1): 602
+law	12	in.txt(12): 257, 489, 614, 707, 754, 967, 988, 1009, 1978, 2595, 2612, 2629
+law.	1	in.txt(1): 550
+lawfully	4	in.txt(4): 423, 1103, 1231, 1263
+lawless	1	in.txt(1): 326
+laws,	1	in.txt(1): 410
+left.	1	in.txt(1): 2308
+legally	1	in.txt(1): 1277
+less	4	in.txt(2): 1077, 1236	in2.txt(2): 26, 366
+liberty	1	in.txt(1): 717
+limited	1	in.txt(1): 2400
+little	4	in.txt(3): 665, 3294, 3309	in2.txt(1): 91
+living	2	in.txt(1): 3606	in2.txt(1): 543
+locality	1	in.txt(1): 1504
+looked	1	in2.txt(1): 358
+lost	2	in.txt(2): 1243, 3365
+made	5	in.txt(5): 231, 531, 1083, 2471, 3116
+mails,	1	in.txt(1): 1584
+maintained.	1	in.txt(1): 1842
+majorities	1	in.txt(1): 2074
+make	7	in.txt(6): 597, 2120, 2786, 2800, 2806, 2923	in2.txt(1): 219
+man	2	in.txt(1): 731	in2.txt(1): 465
+many	3	in.txt(3): 234, 913, 2908
+material	1	in.txt(1): 651
+matters	1	in.txt(1): 79
+matured,	1	in.txt(1): 1166
+may	15	in2.txt(3): 390, 563, 694
+me,	2	in.txt(2): 262, 1337
+members	1	in.txt(1): 552
+memory,	1	in.txt(1): 3596
+men's	1	in2.txt(1): 413
+menaced,	1	in.txt(1): 955
+mere	2	in.txt(2): 1260, 1903
+merely,	1	in.txt(1): 1068
+might	4	in2.txt(1): 346
+mind	1	in.txt(1): 1864
+minorities	1	in.txt(1): 1949
+minority	4	in.txt(4): 1912, 2079, 2110, 2133
+minority.	1	in.txt(1): 2150
+misconstruction	1	in.txt(1): 3076
+mode	1	in.txt(1): 2985
+modification	1	in.txt(1): 1636
+moral	2	in.txt(2): 1923, 2621
+more	6	in2.txt(1): 313
+motion	1	in.txt(1): 1261
+must	9	in.txt(6): 2089, 2336, 2440, 2777, 3575, 3585	in2.txt(3): 455, 489, 622
+my	7	in.txt(7): 252, 1324, 1362, 1373, 1648, 3085, 3508
+mystic	1	in.txt(1): 3593
+nation's	1	in2.txt(1): 671
+national	6	in.txt(6): 638, 991, 1441, 1672, 1751, 2021
+nature	1	in.txt(1): 1065
+nearly	3	in.txt(3): 155, 607, 1565
+necessity	1	in.txt(1): 2270
+needs	3	in.txt(1): 1423	in2.txt(2): 456, 490
+negotiation.	1	in2.txt(1): 209
+neither	2	in2.txt(1): 435
+new	4	in.txt(3): 2160, 2212, 3436	in2.txt(1): 94
+no	31	in2.txt(2): 136, 309
+none	2	in.txt(2): 1434, 3134
+nor	4	in.txt(4): 1713, 2001, 2329, 2725
+not	44	in2.txt(3): 250, 423, 430
+not.	1	in.txt(1): 1860
+now	15	in.txt(14): 163, 270, 350, 393, 452, 816, 928, 957, 2177, 2189, 2681, 2696, 3104, 3413	in2.txt(1): 501
+oath	5	in.txt(4): 42, 688, 790, 3541	in2.txt(1): 19
+oaths	1	in.txt(1): 590
+object	5	in2.txt(1): 293
+objection	1	in.txt(1): 3112
+objects,	1	in.txt(1): 1479
+obnoxious	1	in.txt(1): 1529
+occasion	2	in2.txt(2): 27, 146
+occur	1	in.txt(1): 1993
+of	170	in2.txt(23): 4, 20, 44, 58, 75, 88, 100, 216, 243, 262, 281, 320, 343, 411, 427, 434, 451, 480, 487, 561, 587, 597, 627
+offenses	2	in2.txt(2): 459, 482
+office	1	in2.txt(1): 23
+offices,	2	in.txt(2): 1521, 1553
+official	2	in.txt(2): 789, 841
+older	1	in.txt(1): 1135
+on	14	in2.txt(2): 70, 659
+one	12	in2.txt(2): 215, 479
+ones	1	in.txt(1): 1814
+open	1	in.txt(1): 147
+opinions	1	in.txt(1): 2253
+oppose	1	in.txt(1): 2963
+or	37	in2.txt(2): 330, 349
+order	1	in.txt(1): 291
+ordinary	1	in.txt(1): 2473
+originate	1	in.txt(1): 2994
+orphan,	1	in2.txt(1): 689
+other	8	in2.txt(2): 229, 412
+other.	4	in.txt(3): 569, 2107, 2708	in2.txt(1): 388
+others,	1	in.txt(1): 3011
+our	14	in.txt(13): 318, 886, 1022, 1750, 1942, 2065, 2556, 2719, 2757, 3217, 3502, 3588, 3636	in2.txt(1): 101
+out	2	in.txt(2): 1265, 2741
+over	4	in2.txt(1): 253
+overthrow	1	in.txt(1): 2897
+own	9	in2.txt(1): 444
+parallel	1	in.txt(1): 2368
+part	2	in2.txt(1): 261
+partially	1	in.txt(1): 2698
+parties	4	in.txt(3): 1081, 2344, 2476	in2.txt(1): 211
+party	5	in.txt(4): 509, 1086, 1870, 3222	in2.txt(1): 323
+pass	2	in2.txt(1): 565
+passion	1	in.txt(1): 3580
+patriot	1	in.txt(1): 3602
+patriotism,	1	in.txt(1): 3476
+peace	2	in2.txt(1): 702
+peaceably	1	in.txt(1): 1074
+peculiar	2	in.txt(1): 945	in2.txt(1): 268
+people,	2	in.txt(2): 1378, 3129
+people?	1	in.txt(1): 3205
+perfection	1	in.txt(1): 314
+perform	1	in.txt(1): 1366
+perils,	1	in.txt(1): 914
+perish,	1	in2.txt(1): 237
+permitting	1	in.txt(1): 3002
+perpetual,	1	in.txt(1): 1184
+perpetuate,	1	in2.txt(1): 286
+person	1	in.txt(1): 468
+persons	2	in.txt(2): 1685, 3070
+piled	1	in2.txt(1): 578
+placed	1	in.txt(1): 247
+plainly	4	in.txt(4): 456, 1850, 1890, 1955
+plighted	1	in.txt(1): 1177
+point	2	in2.txt(1): 72
+policy	1	in.txt(1): 2445
+popular	1	in.txt(1): 2252
+portion	2	in.txt(2): 1788, 2157
+position	1	in.txt(1): 2314
+possibility	1	in.txt(1): 1785
+possible,	2	in.txt(2): 1232, 2783
+power,	1	in.txt(1): 3442
+practicable	1	in.txt(1): 1371
+practically	1	in.txt(1): 2494
+pray	1	in2.txt(1): 376
+prayers	1	in2.txt(1): 426
+precedent,	1	in.txt(1): 926
+precisely	3	in.txt(3): 1769, 2170, 3023
+preferable,	1	in.txt(1): 2987
+presence	2	in.txt(2): 40, 2744
+presented.	1	in2.txt(1): 97
+pretext	1	in.txt(1): 1705
+prevail	1	in.txt(1): 3262
+principle,	1	in.txt(1): 2297
+private	1	in.txt(1): 843
+produce	1	in.txt(1): 2216
+progress	1	in2.txt(1): 99
+prohibitions,	1	in.txt(1): 1965
+proper,	2	in.txt(2): 1057, 1641
+properly	1	in.txt(1): 2532
+property,	1	in.txt(1): 377
+proposition	1	in.txt(1): 1114
+propositions	1	in.txt(1): 3008
+protect,	1	in.txt(1): 3559
+provide	1	in.txt(1): 752
+providence	1	in2.txt(1): 486
+provisions	2	in.txt(2): 1020, 2009
+public	4	in.txt(2): 363, 3291	in2.txt(2): 63, 115
+purpose	3	in.txt(3): 799, 1407, 3086
+purposes.	2	in.txt(1): 2552	in2.txt(1): 445
+question	1	in.txt(1): 1990
+questions	3	in.txt(3): 2059, 2320, 2451
+questions.	1	in.txt(1): 2013
+rather	4	in.txt(2): 2116, 2961	in2.txt(2): 221, 233
+read	2	in.txt(1): 453	in2.txt(1): 371
+real	2	in.txt(2): 1797, 1813
+reason	1	in.txt(1): 3471
+reasonably	1	in2.txt(1): 124
+reclaiming	1	in.txt(1): 535
+recommendation	1	in.txt(1): 2925
+reflection.	1	in.txt(1): 1620
+refuses	1	in.txt(1): 2144
+regarded	1	in.txt(1): 1398
+regulation	1	in.txt(1): 491
+reject	1	in.txt(1): 3007
+rejects	1	in.txt(1): 2266
+remain	1	in.txt(1): 2767
+remove,	1	in2.txt(1): 504
+renewed	1	in.txt(1): 2221
+require	1	in.txt(1): 1100
+rescind	1	in.txt(1): 1104
+resident	1	in.txt(1): 1515
+resolution	1	in.txt(1): 267
+respect	1	in.txt(1): 2363
+restoration	1	in.txt(1): 1676
+restrict	1	in2.txt(1): 316
+result	1	in2.txt(1): 365
+return	1	in.txt(1): 3306
+revolution;	1	in.txt(1): 1928
+revolutionary,	1	in.txt(1): 1299
+right	11	in2.txt(2): 310, 647
+right,	2	in2.txt(1): 655
+righteous	1	in2.txt(1): 633
+rights	3	in.txt(3): 279, 1839, 1947
+ruin	1	in.txt(1): 2129
+rulers,	1	in.txt(1): 2489
+safe	1	in.txt(1): 995
+safer	1	in.txt(1): 836
+said,	1	in.txt(1): 3081
+same	6	in2.txt(2): 373, 379
+satisfactory	2	in2.txt(1): 125
+say	1	in.txt(1): 3097
+scarcely	1	in.txt(1): 521
+scourge	1	in2.txt(1): 560
+secession	1	in.txt(1): 2228
+second	1	in2.txt(1): 14
+section,	1	in.txt(1): 2692
+security	3	in.txt(3): 117, 380, 1611
+seek	2	in.txt(2): 1692, 2545
+seem	1	in2.txt(1): 391
+seems	2	in.txt(2): 92, 2986
+sense	2	in.txt(2): 1608, 2622
+sentiments	1	in.txt(1): 2187
+separate.	1	in.txt(1): 2714
+seriously	1	in.txt(1): 3337
+service	4	in.txt(4): 446, 471, 497, 513
+seventy-two	1	in.txt(1): 876
+shall	19	in.txt(14): 484, 501, 689, 701, 772, 1327, 1379, 1432, 1505, 1605, 1633, 2874, 3057, 3551	in2.txt(5): 473, 528, 590, 603, 678
+should	7	in.txt(5): 634, 679, 1182, 1909, 3192	in2.txt(2): 355, 396
+show	1	in.txt(1): 1634
+side	3	in.txt(3): 2104, 3245, 3461
+similar	1	in.txt(1): 235
+since	1	in.txt(1): 878
+slave	4	in.txt(4): 655, 2588, 2602, 2679
+slavery	5	in.txt(4): 192, 2035, 2048, 2559	in2.txt(1): 477
+slaves	2	in2.txt(1): 265
+slaves,	2	in2.txt(1): 249
+so	17	in.txt(16): 224, 357, 727, 1094, 1368, 1507, 1558, 1561, 1564, 1742, 1777, 1824, 1866, 1954, 2292, 3093	in2.txt(1): 619
+so.	1	in.txt(1): 216
+solemn	1	in.txt(1): 3555
+some	5	in.txt(5): 627, 1039, 1386, 2302, 2317
+somewhat	1	in2.txt(1): 41
+southern	1	in2.txt(1): 260
+space	1	in.txt(1): 3344
+speak--but	1	in.txt(1): 1096
+speaking,	1	in.txt(1): 2710
+specifically	1	in.txt(1): 1986
+speeches	2	in.txt(2): 159, 174
+spring	1	in.txt(1): 2063
+statement	1	in2.txt(1): 40
+step	2	in.txt(2): 1780, 3384
+still	6	in2.txt(2): 80, 620
+strange	1	in2.txt(1): 392
+strengthen,	1	in2.txt(1): 285
+strict	1	in.txt(1): 1539
+subject	1	in.txt(1): 710
+subject.	1	in.txt(1): 3360
+success.	1	in.txt(1): 919
+successor.	1	in.txt(1): 3190
+such,	1	in.txt(1): 1719
+suit	1	in.txt(1): 2347
+sunk,	1	in2.txt(1): 592
+supports	1	in.txt(1): 2627
+suppressed,	1	in.txt(1): 2683
+surely	3	in.txt(3): 644, 3261, 3627
+surrendered,	2	in.txt(2): 659, 2699
+susceptible	1	in.txt(1): 374
+sweat	1	in2.txt(1): 410
+sword,	1	in2.txt(1): 611
+take	6	in.txt(5): 37, 787, 1328, 3005, 3389	in2.txt(1): 17
+taking	2	in.txt(2): 3367, 3397
+temper	1	in.txt(1): 2195
+term	1	in.txt(1): 938
+terms	3	in.txt(3): 581, 2853, 3139
+territorial	1	in2.txt(1): 318
+than	17	in2.txt(4): 32, 222, 234, 314
+that	65	in2.txt(11): 92, 274, 340, 393, 420, 458, 464, 475, 506, 557, 571
+that--	1	in.txt(1): 178
+the	293	in2.txt(54): 18, 21, 36, 56, 76, 82, 86, 89, 114, 134, 145, 172, 185, 193, 203, 224, 228, 239, 244, 254, 259, 279, 282, 292, 296, 300, 306, 317, 326, 328, 331, 341, 344, 352, 372, 378, 387, 409, 448, 468, 485, 518, 525, 539, 576, 580, 601, 610, 628, 646, 654, 662, 670, 681
+their	15	in2.txt(1): 406
+them	7	in.txt(6): 862, 869, 1958, 2072, 2140, 3003	in2.txt(1): 217
+them.	4	in.txt(4): 1726, 1974, 2731, 2780
+themselves	2	in.txt(2): 259, 3148
+then	1	in.txt(1): 1173
+there	16	in.txt(14): 84, 1422, 1431, 1480, 1522, 1683, 1717, 1782, 2200, 2507, 3193, 3207, 3370, 3465	in2.txt(2): 24, 33
+therein	2	in.txt(1): 492	in2.txt(1): 531
+these	6	in.txt(6): 352, 975, 1108, 1252, 1478, 1552
+think	2	in.txt(2): 1859, 3353
+thirteen	1	in.txt(1): 1174
+this	26	in2.txt(7): 13, 149, 179, 275, 289, 514, 558
+this.	3	in.txt(3): 1878, 2198, 2762
+those	7	in2.txt(3): 481, 522, 535
+thought	1	in.txt(1): 1618
+thousand	1	in2.txt(1): 616
+through	2	in.txt(1): 912	in2.txt(1): 496
+time,	2	in.txt(1): 2436	in2.txt(1): 499
+time;	1	in.txt(1): 3398
+to	155	in2.txt(26): 16, 47, 113, 117, 128, 140, 148, 158, 168, 183, 196, 201, 311, 315, 377, 398, 463, 503, 509, 521, 547, 652, 660, 667, 673, 690
+toil	1	in2.txt(1): 589
+touched,	1	in.txt(1): 3625
+trade	1	in.txt(1): 2603
+transmit	1	in.txt(1): 3183
+tribunal	1	in.txt(1): 3269
+triumph,	1	in2.txt(1): 362
+true	2	in.txt(1): 2259	in2.txt(1): 631
+trust	1	in.txt(1): 1393
+trusting	1	in.txt(1): 863
+turn	2	in.txt(2): 2125, 2547
+two	2	in2.txt(1): 582
+ultimately	1	in.txt(1): 2686
+unanimous	1	in.txt(1): 623
+unbroken,	1	in.txt(1): 1318
+under	6	in.txt(6): 477, 885, 942, 2957, 3280, 3432
+unimpaired	1	in.txt(1): 3185
+union	1	in.txt(1): 2213
+unkept	1	in.txt(1): 691
+unmade	1	in.txt(1): 1075
+unrequited	1	in2.txt(1): 588
+until	2	in2.txt(2): 574, 594
+up	3	in.txt(2): 442, 504	in2.txt(1): 669
+upon	16	in.txt(15): 361, 708, 930, 1257, 1336, 1439, 1741, 2071, 2342, 2449, 2513, 2858, 2973, 3135, 3357	in2.txt(1): 103
+used	1	in.txt(1): 1450
+using	1	in.txt(1): 1486
+venture	1	in.txt(1): 2977
+very	4	in.txt(4): 650, 2361, 3315, 3336
+views	1	in.txt(1): 1253
+violate	2	in.txt(2): 859, 1091
+violence,	1	in.txt(1): 1429
+vital	4	in.txt(4): 1245, 1936, 1946, 2450
+wall	1	in.txt(1): 2729
+war,	4	in.txt(1): 2825	in2.txt(3): 188, 213, 304
+war.	3	in.txt(1): 3521	in2.txt(2): 162, 283
+was	10	in2.txt(5): 34, 175, 277, 291, 613
+we	13	in.txt(7): 323, 538, 1111, 1771, 2069, 2711, 3282	in2.txt(6): 421, 472, 529, 551, 555, 664
+weary	1	in.txt(1): 2876
+well	4	in2.txt(1): 111
+were	5	in2.txt(3): 155, 191, 247
+whatever	1	in.txt(1): 426
+when,	1	in.txt(1): 2832
+where	2	in.txt(2): 196, 2619
+which	23	in.txt(16): 83, 268, 312, 370, 618, 673, 764, 854, 1612, 1888, 1991, 2123, 2524, 3019, 3281, 3385	in2.txt(7): 62, 79, 104, 295, 333, 538, 693
+which,	3	in2.txt(2): 483, 493
+while	11	in2.txt(1): 305
+who	11	in2.txt(1): 677
+whole	5	in2.txt(1): 245
+whom	3	in.txt(1): 511	in2.txt(2): 467, 524
+why	2	in.txt(2): 1770, 2153
+widow	1	in2.txt(1): 686
+will	25	in.txt(25): 414, 833, 1028, 1395, 1413, 1448, 1481, 1523, 1587, 1625, 1651, 1710, 1818, 2080, 2114, 2126, 2137, 2482, 2976, 3260, 3393, 3438, 3524, 3615, 3629
+wisdom	1	in.txt(1): 3302
+wisely	1	in.txt(1): 3288
+with	26	in.txt(20): 18, 188, 225, 405, 606, 792, 797, 917, 921, 1660, 1753, 1983, 2248, 2405, 2862, 2995, 3060, 3165, 3236, 3300	in2.txt(6): 348, 600, 609, 639, 643, 706
+withhold	1	in.txt(1): 1380
+without	5	in.txt(3): 2688, 3223, 3533	in2.txt(2): 187, 199
+word	1	in.txt(1): 1724
+world	1	in2.txt(1): 449
+worse	1	in.txt(1): 2665
+would	12	in.txt(9): 596, 1559, 1762, 1930, 2663, 2684, 2700, 3027, 3387	in2.txt(3): 218, 230, 298
+wounds,	1	in2.txt(1): 672
+written	4	in.txt(4): 457, 1851, 1891, 1916
+year	1	in.txt(1): 2163
+years	5	in2.txt(3): 151, 586, 617
+years.	1	in.txt(1): 3347
+you	15	in.txt(15): 30, 33, 1775, 1792, 1805, 1815, 1819, 1881, 2822, 2826, 2844, 3378, 3386, 3410, 3454
+you.	3	in.txt(3): 165, 2859, 3527
+yours	1	in.txt(1): 3251

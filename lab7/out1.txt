@@ -1,9 +1,1261 @@
-It 1
-was 2, 8
-the 3, 9
-best 4
-of 5, 11
-times 6
-1,#2&& 7
-worst 10
-times. 12
+First 1
+Inaugural 2
+Address 3
+of 4, 12, 47, 63, 80, 98, 106, 160, 172, 191, 277, 280, 287, 309, 317, 331, 334, 347, 369, 381, 443, 464, 487, 507, 536, 545, 553, 582, 617, 629, 663, 716, 758, 769, 780, 821, 861, 882, 905, 925, 939, 949, 965, 969, 974, 989, 1021, 1061, 1066, 1127, 1147, 1159, 1170, 1188, 1197, 1217, 1227, 1247, 1266, 1282, 1292, 1309, 1323, 1341, 1408, 1487, 1551, 1580, 1595, 1609, 1666, 1670, 1677, 1703, 1749, 1789, 1823, 1876, 1883, 1893, 1905, 1913, 1925, 1948, 1951, 2004, 2060, 2134, 2158, 2173, 2196, 2204, 2227, 2232, 2251, 2261, 2269, 2282, 2352, 2374, 2429, 2446, 2463, 2501, 2541, 2555, 2590, 2599, 2623, 2634, 2672, 2742, 2749, 2756, 2854, 2877, 2887, 2904, 2915, 2926, 2934, 2946, 3000, 3064, 3069, 3077, 3090, 3143, 3203, 3225, 3234, 3246, 3252, 3266, 3270, 3277, 3307, 3331, 3345, 3377, 3409, 3428, 3519, 3590, 3595, 3620, 3635
+Abraham 5
+Lincoln 6
+MONDAY, 7
+MARCH 8
+4, 9
+1861 10
+Fellow-Citizens 11
+the 13, 24, 41, 45, 48, 55, 61, 96, 99, 104, 133, 138, 142, 157, 189, 194, 249, 263, 274, 278, 281, 285, 313, 325, 332, 345, 362, 365, 371, 376, 392, 401, 406, 409, 420, 440, 459, 478, 508, 534, 543, 546, 549, 559, 571, 580, 598, 654, 714, 748, 756, 762, 783, 788, 802, 879, 902, 906, 931, 935, 950, 970, 972, 986, 1018, 1026, 1045, 1050, 1064, 1080, 1113, 1119, 1125, 1128, 1137, 1145, 1157, 1168, 1172, 1186, 1198, 1205, 1218, 1228, 1233, 1240, 1244, 1267, 1290, 1293, 1310, 1313, 1315, 1321, 1331, 1339, 1342, 1349, 1376, 1381, 1390, 1405, 1409, 1440, 1456, 1462, 1467, 1492, 1498, 1519, 1532, 1538, 1545, 1549, 1554, 1576, 1578, 1596, 1602, 1671, 1675, 1695, 1733, 1747, 1790, 1802, 1812, 1821, 1834, 1853, 1862, 1874, 1894, 1902, 1945, 1967, 2037, 2050, 2078, 2083, 2087, 2098, 2106, 2174, 2193, 2207, 2224, 2230, 2257, 2295, 2313, 2326, 2343, 2350, 2375, 2394, 2406, 2427, 2434, 2437, 2444, 2447, 2453, 2464, 2467, 2480, 2499, 2514, 2517, 2568, 2582, 2591, 2594, 2597, 2600, 2620, 2624, 2628, 2635, 2639, 2670, 2673, 2707, 2743, 2747, 2753, 2847, 2867, 2878, 2905, 2917, 2931, 2935, 2938, 2947, 2951, 2969, 2983, 2996, 3016, 3040, 3051, 3054, 3061, 3065, 3128, 3141, 3144, 3157, 3172, 3200, 3204, 3214, 3228, 3231, 3247, 3253, 3264, 3271, 3275, 3278, 3305, 3319, 3339, 3342, 3417, 3423, 3426, 3435, 3459, 3463, 3498, 3516, 3536, 3547, 3553, 3618, 3621, 3632
+United 14, 49, 1051, 1294, 1499
+States: 15
+In 16, 705, 1419, 3216, 3505
+compliance 17
+with 18, 188, 225, 405, 606, 792, 797, 917, 921, 1660, 1753, 1983, 2248, 2405, 2862, 2995, 3060, 3165, 3236, 3300
+a 19, 107, 256, 613, 649, 693, 729, 739, 883, 1004, 1055, 1088, 1210, 1224, 1358, 1400, 1635, 1661, 1664, 1667, 1744, 1779, 1826, 1884, 1889, 1907, 1911, 1922, 1935, 1984, 2109, 2121, 2132, 2142, 2159, 2162, 2211, 2262, 2283, 2286, 2346, 2416, 2430, 2521, 2617, 2647, 2964, 3036, 3101, 3196, 3383, 3479
+custom 20
+as 21, 23, 255, 343, 432, 455, 461, 564, 566, 697, 738, 823, 1071, 1330, 1370, 1399, 1404, 1511, 1600, 1746, 2171, 2214, 2285, 2348, 2606, 2610, 2851, 3025, 3095, 3159, 3175, 3411, 3626
+old 22, 2849, 3418
+Government 25, 1463, 1546, 2088, 2099, 2448, 2497, 3056, 3174, 3279, 3340, 3523
+itself, 26
+I 27, 66, 166, 176, 179, 199, 201, 210, 229, 269, 349, 358, 396, 451, 786, 812, 828, 927, 960, 1303, 1326, 1353, 1392, 1569, 1709, 1720, 1736, 1858, 2309, 2331, 2654, 2899, 2922, 2928, 2955, 2975, 3034, 3044, 3079, 3082, 3109, 3550, 3563
+appear 28
+before 29, 57, 1239, 2534
+you 30, 33, 1775, 1792, 1805, 1815, 1819, 1881, 2822, 2826, 2844, 3378, 3386, 3410, 3454
+to 31, 36, 51, 76, 93, 119, 137, 148, 186, 206, 214, 258, 261, 290, 299, 306, 385, 418, 429, 433, 470, 510, 558, 567, 619, 657, 667, 670, 698, 724, 751, 775, 800, 817, 825, 845, 847, 858, 864, 871, 996, 1015, 1034, 1087, 1095, 1102, 1273, 1301, 1320, 1355, 1424, 1446, 1451, 1461, 1465, 1497, 1512, 1527, 1547, 1556, 1573, 1589, 1616, 1639, 1655, 1693, 1706, 1725, 1767, 1807, 1830, 1873, 1957, 1988, 2145, 2179, 2192, 2209, 2215, 2272, 2275, 2322, 2345, 2349, 2360, 2401, 2457, 2485, 2491, 2529, 2546, 2550, 2564, 2577, 2769, 2785, 2824, 2852, 2866, 2894, 2941, 2971, 2978, 2981, 2993, 3004, 3029, 3039, 3050, 3072, 3088, 3096, 3103, 3113, 3137, 3163, 3170, 3178, 3182, 3188, 3310, 3374, 3382, 3446, 3495, 3545, 3557, 3566, 3604
+address 32, 1722
+briefly 34
+and 35, 112, 115, 145, 209, 220, 233, 237, 242, 254, 260, 265, 283, 292, 315, 322, 354, 379, 408, 542, 611, 721, 778, 796, 810, 842, 848, 894, 915, 944, 968, 1025, 1154, 1167, 1178, 1203, 1271, 1279, 1312, 1319, 1364, 1416, 1430, 1454, 1458, 1464, 1469, 1509, 1563, 1619, 1631, 1642, 1646, 1659, 1663, 1674, 1680, 1700, 1759, 1950, 1961, 1964, 2068, 2075, 2128, 2219, 2242, 2244, 2254, 2364, 2413, 2536, 2562, 2574, 2593, 2646, 2661, 2734, 2739, 2745, 2771, 2831, 2839, 2910, 2954, 3018, 3118, 3130, 3181, 3240, 3257, 3298, 3324, 3351, 3355, 3478, 3511, 3560, 3601, 3608
+take 37, 787, 1328, 3005, 3389
+in 38, 154, 193, 248, 355, 387, 458, 474, 485, 600, 681, 719, 734, 761, 782, 840, 867, 899, 963, 985, 1006, 1044, 1063, 1116, 1142, 1149, 1161, 1190, 1194, 1307, 1347, 1385, 1501, 1544, 1592, 1643, 1686, 1833, 1852, 1887, 1921, 1966, 1994, 2036, 2049, 2111, 2124, 2237, 2301, 2339, 2366, 2389, 2472, 2477, 2508, 2616, 2643, 2651, 2666, 2690, 2944, 2950, 2988, 3199, 3213, 3227, 3341, 3379, 3462, 3497, 3513, 3543
+your 39, 3244, 3429, 3506
+presence 40, 2744
+oath 42, 688, 790, 3541
+prescribed 43, 2949
+by 44, 54, 103, 328, 391, 528, 615, 637, 640, 672, 753, 806, 850, 1038, 1076, 1124, 1144, 1156, 1185, 1220, 1223, 1901, 1959, 2020, 2023, 2148, 2239, 2316, 2325, 2370, 2461, 2638, 2706, 3010, 3186, 3263, 3328, 3366, 3396, 3406, 3631
+Constitution 46, 407, 460, 763, 803, 971, 1206, 1311, 1332, 1854, 1895, 1968, 2027, 2040, 2053, 2592, 2919, 3419
+States 50, 101, 195, 421, 976, 1052, 1062, 1175, 1229, 1288, 1295, 1500, 2208
+be 52, 120, 386, 412, 415, 493, 502, 517, 586, 635, 658, 662, 684, 702, 725, 732, 745, 773, 826, 834, 872, 1053, 1073, 1183, 1230, 1344, 1356, 1397, 1425, 1433, 1437, 1449, 1475, 1482, 1506, 1524, 1560, 1590, 1626, 1640, 1652, 1718, 1765, 1831, 1841, 1981, 2018, 2146, 2323, 2337, 2387, 2411, 2423, 2458, 2486, 2565, 2578, 2615, 2658, 2664, 2685, 2702, 2737, 2810, 2902, 2942, 3022, 3105, 3195, 3242, 3364, 3371, 3394, 3404, 3577
+taken 53
+President 56, 884
+he 58
+enters 59
+on 60, 311, 505, 692, 1361, 2102, 2836, 2842, 3243, 3250, 3422, 3482
+execution 62
+this 64, 232, 524, 562, 583, 632, 709, 923, 1352, 1394, 1421, 2061, 2509, 3151, 3267, 3284, 3358, 3489, 3612
+office." 65
+do 67, 167, 207, 215, 813, 829, 1557, 1707, 1772, 2310, 2330, 2761, 3150, 3164
+not 68, 605, 648, 712, 733, 744, 814, 983, 1041, 1054, 1099, 1396, 1737, 1764, 1941, 2029, 2042, 2055, 2081, 2155, 2311, 2527, 2576, 2657, 2701, 2713, 2717, 2760, 2765, 2828, 2901, 3012, 3021, 3046, 3087, 3194, 3512, 3525, 3570, 3576, 3586
+consider 69, 1305
+it 70, 197, 532, 660, 675, 700, 743, 832, 911, 1031, 1036, 1098, 1181, 1367, 1412, 1436, 1571, 1708, 1763, 1844, 1919, 2267, 2379, 2409, 2537, 2571, 2662, 2782, 2889, 2990, 3176, 3184, 3444, 3450, 3584
+necessary 71, 1476
+at 72, 747, 1697, 2704, 3314
+present 73, 2175, 3173, 3218, 3503
+for 74, 129, 251, 425, 533, 755, 837, 934, 1010, 1043, 1201, 1477, 1534, 1575, 2010, 2096, 2131, 2418, 2596, 3015, 3140, 3296, 3304, 3472
+me 75, 222, 1447, 2982
+discuss 77
+those 78, 173, 529, 852
+matters 79
+administration 81
+about 82, 439
+which 83, 268, 312, 370, 618, 673, 764, 854, 1612, 1888, 1991, 2123, 2524, 3019, 3281, 3385
+there 84, 1422, 1431, 1480, 1522, 1683, 1717, 1782, 2200, 2507, 3193, 3207, 3370, 3465
+is 85, 152, 304, 373, 436, 454, 520, 548, 626, 647, 656, 676, 875, 956, 977, 980, 994, 1121, 1133, 1235, 1317, 1613, 1783, 1865, 1940, 2092, 2100, 2229, 2256, 2278, 2289, 2304, 2307, 2380, 2456, 2506, 2520, 2538, 2560, 2572, 2581, 3169, 3220, 3467, 3515
+no 86, 181, 203, 212, 339, 382, 793, 798, 999, 1255, 1426, 1483, 1485, 1525, 1723, 1796, 1869, 1976, 2093, 2539, 2840, 2924, 3111, 3326, 3400, 3440, 3468, 3531, 3540
+special 87
+anxiety 88
+or 89, 184, 337, 447, 472, 490, 498, 514, 639, 669, 804, 1222, 1287, 1298, 1384, 1428, 1490, 1637, 1689, 2022, 2086, 2105, 2164, 2274, 2299, 2516, 2775, 2791, 2890, 2896, 3006, 3032, 3210, 3249, 3333
+excitement. 90
+Apprehension 91
+seems 92, 2986
+exist 94, 1543
+among 95, 344, 1491, 1531, 2206, 2819
+people 97, 1493, 1533, 1603, 2455, 2481, 2625, 2636, 2868, 2936, 2970, 2997, 3147, 3286, 3320
+Southern 100
+that 102, 228, 307, 375, 399, 523, 574, 622, 645, 686, 728, 759, 766, 831, 890, 962, 998, 1115, 1180, 1254, 1269, 1274, 1280, 1306, 1338, 1411, 1535, 1568, 1607, 1786, 1847, 1868, 1969, 2306, 2318, 2333, 2353, 2383, 2402, 2408, 2442, 2492, 2502, 2787, 2907, 2980, 2989, 3053, 3068, 3255, 3258, 3308, 3391, 3453
+accession 105
+Republican 108
+Administration 109, 3327, 3437
+their 110, 113, 149, 556, 589, 2135, 2487, 2496, 2548, 2884, 2891, 3290, 3311, 3322
+property 111, 1457
+peace 114
+personal 116, 2478
+security 117, 380, 1611
+are 118, 384, 591, 1276, 1296, 1684, 1701, 1808, 1953, 2188, 2321, 2357, 2470, 2604, 2856, 2913, 3412, 3456, 3492, 3569
+endangered. 121
+There 122, 435, 625, 2091
+has 123, 140, 1855, 1896, 3161, 3485
+never 124, 239, 1971, 2414, 3058, 3388, 3486
+been 125, 146, 1856, 1898
+any 126, 335, 388, 462, 488, 568, 682, 706, 735, 807, 860, 1285, 1502, 1704, 1784, 1787, 1848, 1914, 2002, 2156, 2340, 2390, 2511, 2611, 3208, 3329, 3376
+reasonable 127, 2005
+cause 128
+such 130, 496, 512, 1581, 1932, 1939, 2112, 2149, 2201, 2334, 2384, 3024, 3100, 3160
+apprehension. 131
+Indeed, 132
+most 134, 366, 1614, 3554
+ample 135
+evidence 136, 368
+contrary 139
+all 141, 156, 400, 419, 713, 776, 851, 922, 990, 1017, 1079, 1101, 1171, 1348, 1593, 1698, 1754, 1811, 1837, 2011, 2064, 2305, 2367, 2371, 2705, 3124, 3501, 3610
+while 143, 811, 1781, 1801, 2355, 2378, 2567, 2693, 3434, 3549
+existed 144
+open 147
+inspection. 150
+It 151, 519, 874, 993, 1139, 1151, 1163, 1249, 2519
+found 153
+nearly 155, 607, 1565
+published 158
+speeches 159, 174
+him 161, 668, 3136, 3187
+who 162, 218, 530, 1082, 1691, 1730, 2184, 2869, 3455, 3484
+now 163, 270, 350, 393, 452, 816, 928, 957, 2177, 2189, 2681, 2696, 3104, 3413
+addresses 164
+you. 165, 2859, 3527
+but 168, 500, 643, 664, 1058, 1402, 1471, 1715, 2752, 2766, 3156, 3293, 3399, 3572
+quote 169
+from 170, 445, 495, 1107, 1251, 1517, 1794, 2016, 2139, 2181, 2523, 2722, 3084, 3127, 3598
+one 171, 430, 475, 1196, 1221, 1687, 2103, 2691, 3350, 3556
+when 175, 422, 3623
+declare 177
+that-- 178
+have 180, 202, 211, 898, 909, 1606, 1795, 2483, 3045, 3080, 3110, 3132, 3287, 3299, 3416, 3439, 3530, 3539, 3552, 3582
+purpose, 182, 3017
+directly 183
+indirectly, 185
+interfere 187, 3059
+institution 190
+slavery 192, 2035, 2048, 2559
+where 196, 2619
+exists. 198
+believe 200
+lawful 204
+right 205, 286, 1541, 1849, 1933, 2561, 2886, 2893, 3460
+so, 208
+inclination 213
+so. 216
+Those 217
+nominated 219
+elected 221
+did 223
+so 224, 357, 727, 1094, 1368, 1507, 1558, 1561, 1564, 1742, 1777, 1824, 1866, 1954, 2292, 3093
+full 226
+knowledge 227
+had 230, 238, 1003
+made 231, 531, 1083, 2471, 3116
+many 234, 913, 2908
+similar 235
+declarations 236
+recanted 240
+them; 241
+more 243, 1211, 2789, 2792, 2811
+than 244, 857, 1078, 1136, 1238, 1810, 2117, 2425, 2675, 2796, 2803, 2816, 2962
+this, 245
+they 246, 595, 604, 2119, 2356, 2469, 2525, 2873, 2881, 3026, 3131, 3154, 3628
+placed 247
+platform 250
+my 252, 1324, 1362, 1373, 1648, 3085, 3508
+acceptance, 253
+law 257, 489, 614, 707, 754, 967, 988, 1009, 1978, 2595, 2612, 2629
+themselves 259, 3148
+me, 262, 1337
+clear 264
+emphatic 266
+resolution 267
+read: 271
+Resolved, 272
+That 273, 1682
+maintenance 275
+inviolate 276
+rights 279, 1839, 1947
+States, 282, 3066
+especially 284, 3013
+each 288, 770, 2605, 2723, 2750
+State 289, 336, 641, 771, 1256, 1286, 2024
+order 291
+control 293
+its 294, 300, 465, 1007, 1011, 1258, 1755, 1757, 1760, 2863, 3114
+own 295, 301, 1012, 1259, 2136, 2488, 3312, 3430
+domestic 296, 3062
+institutions 297, 3063
+according 298, 1300, 1654
+judgment 302, 3265
+exclusively, 303
+essential 305
+balance 308
+power 310, 1444, 3295
+perfection 314
+endurance 316
+our 318, 886, 1022, 1750, 1942, 2065, 2556, 2719, 2757, 3217, 3502, 3588, 3636
+political 319, 2551
+fabric 320
+depend; 321
+we 323, 538, 1111, 1771, 2069, 2711, 3282
+denounce 324
+lawless 326
+invasion 327
+armed 329
+force 330, 1488, 1528, 1904
+soil 333
+Territory, 338
+matter 340, 1745
+what 341, 537, 1473, 3078
+pretext, 342
+gravest 346
+crimes. 348
+reiterate 351
+these 352, 975, 1108, 1252, 1478, 1552
+sentiments, 353, 2255
+doing 356, 1420, 1877, 2197
+only 359, 954, 1226, 1357, 1403, 2218, 2258, 2583, 2697, 3001
+press 360
+upon 361, 708, 930, 1257, 1336, 1439, 1741, 2071, 2342, 2449, 2513, 2858, 2973, 3135, 3357
+public 363, 3291
+attention 364
+conclusive 367
+case 372, 683, 736, 1645, 2113, 2341
+susceptible 374
+property, 377
+peace, 378
+section 383, 431, 1688, 2554
+wise 389, 1766
+endangered 390
+incoming 394
+Administration. 395
+add, 397
+too, 398
+protection 402
+which, 403
+consistently 404
+laws, 410
+can 411, 661, 1069, 1262, 1840, 1871, 1979, 1999, 2421, 2613, 2656, 2712, 2716, 2759, 2764, 2805, 2818, 2827, 2882, 2900, 3149, 3335, 3363, 3403, 3529
+given 413, 417, 2391, 3289
+will 414, 833, 1028, 1395, 1413, 1448, 1481, 1523, 1587, 1625, 1651, 1710, 1818, 2080, 2114, 2126, 2137, 2482, 2976, 3260, 3393, 3438, 3524, 3615, 3629
+cheerfully 416, 428
+lawfully 423, 1103, 1231, 1263
+demanded, 424
+whatever 426
+cause--as 427
+another. 434
+much 437, 565, 835, 1134, 2834
+controversy 438, 696
+delivering 441
+up 442, 504
+fugitives 444, 2015
+service 446, 471, 497, 513
+labor. 448
+The 449, 1131, 1443, 1583, 1621, 2026, 2039, 2052, 2280, 2586, 2631, 2677, 3120, 3146, 3522, 3592
+clause 450, 584, 633, 760, 2589
+read 453
+plainly 456, 1850, 1890, 1955
+written 457, 1851, 1891, 1916
+other 463, 2094, 2372, 2419, 2569, 2724
+provisions: 466
+No 467, 1997
+person 468
+held 469, 870, 2236, 3071
+labor 473, 515, 2017
+State, 476
+under 477, 885, 942, 2957, 3280, 3432
+laws 479, 805, 1314, 1340, 2817, 3427
+thereof, 480
+escaping 481
+into 482, 2073, 2498
+another, 483
+shall 484, 501, 689, 701, 772, 1327, 1379, 1432, 1505, 1605, 1633, 2874, 3057, 3551
+consequence 486, 666
+regulation 491
+therein 492
+discharged 494
+labor, 499
+delivered 503, 587
+claim 506, 2178
+party 509, 1086, 1870, 3222
+whom 511
+may 516, 1090, 1474, 1542, 1735, 1992, 2154, 2386, 2410, 2526, 2736, 3581
+due. 518
+scarcely 521
+questioned 522
+provision 525, 563, 1005, 1892, 1985, 3102
+was 526, 1140, 1152, 1164, 1207
+intended 527
+reclaiming 535
+call 539
+fugitive 540, 2694
+slaves; 541
+intention 544
+lawgiver 547
+law. 550
+All 551, 1828, 1944, 2183
+members 552
+Congress 554, 822, 2033, 2046
+swear 555
+support 557
+whole 560, 2454, 2939, 3359
+Constitution--to 561
+other. 569, 2107, 2708
+To 570, 1727, 3074
+proposition, 572
+then, 573, 1846, 2784
+slaves 575
+whose 576
+cases 577, 2369, 2531, 2668
+come 578
+within 579, 1284
+terms 581, 2853, 3139
+"shall 585
+up" 588
+oaths 590
+unanimous. 592
+Now, 593
+if 594, 982, 1215, 1716, 1836, 1880, 1931, 2443, 2543, 3152, 3443
+would 596, 1559, 1762, 1930, 2663, 2684, 2700, 3027, 3387
+make 597, 2120, 2786, 2800, 2806, 2923
+effort 599
+good 601, 621, 3401, 3470
+temper, 602
+could 603, 2426
+equal 608, 3211, 3301
+unanimity 609
+frame 610, 3276
+pass 612
+means 616, 1383
+keep 620
+unanimous 623
+oath? 624
+some 627, 1039, 1386, 2302, 2317
+difference 628, 646
+opinion 630
+whether 631
+should 634, 679, 1182, 1909, 3192
+enforced 636, 2813
+national 638, 991, 1441, 1672, 1751, 2021
+authority, 642
+surely 644, 3261, 3627
+very 650, 2361, 3315, 3336
+material 651
+one. 652, 1937
+If 653, 1049, 1900, 2077, 2108, 3230, 3369, 3449
+slave 655, 2588, 2602, 2679
+surrendered, 659, 2699
+little 665, 3294, 3309
+others 671, 2544
+authority 674, 1291, 2933, 3126
+done. 677
+And 678, 741, 1192, 2377
+anyone 680
+content 685, 1832
+his 687, 3125, 3179, 3189
+go 690, 2740, 2823
+unkept 691
+merely 694
+unsubstantial 695
+how 699
+kept? 703
+Again: 704, 1048
+subject 710
+ought 711, 2563, 2575
+safeguards 715
+liberty 717
+known 718
+civilized 720
+humane 722
+jurisprudence 723
+introduced, 726
+free 730, 2263
+man 731
+surrendered 737, 2019, 2703
+slave? 740
+might 742, 1920, 3020
+well 746, 2607, 3356
+same 749, 932, 2435, 3285
+time 750, 1577
+provide 752
+enforcement 757
+guarantees 765
+"the 767
+citizens 768, 781, 897, 1516, 2912
+entitled 774, 2359
+privileges 777
+immunities 779
+several 784
+States"? 785
+official 789, 841
+to-day 791
+mental 794
+reservations 795
+purpose 799, 1407, 3086
+construe 801
+hypercritical 808
+rules; 809
+choose 815
+specify 818
+particular 819, 2403, 3091
+acts 820, 853, 1281
+proper 824, 1001
+enforced, 827, 2608
+suggest 830
+safer 836
+all, 838, 3352
+both 839, 2644, 2667, 2837
+private 843
+stations, 844
+conform 846
+abide 849, 2637
+stand 855
+unrepealed 856
+violate 859, 1091
+them 862, 869, 1958, 2072, 2140, 3003
+trusting 863
+find 865, 1112
+impunity 866
+having 868, 1242, 2490, 2916
+unconstitutional. 873
+seventy-two 876
+years 877, 941
+since 878
+first 880
+inauguration 881
+National 887, 1023, 2918
+Constitution. 888, 1138
+During 889
+period 891
+fifteen 892
+different 893, 2431, 2754
+greatly 895
+distinguished 896
+succession 900
+administered 901
+executive 903
+branch 904
+Government. 907, 2376
+They 908, 2763
+conducted 910
+through 912
+perils, 914
+generally 916
+great 918, 943, 1508, 2632, 3268
+success. 919
+Yet, 920
+scope 924
+precedent, 926
+enter 929
+task 933
+brief 936
+constitutional 937, 1838, 1917, 2066, 2240, 2319, 2885, 3107
+term 938
+four 940, 3346
+peculiar 945
+difficulty. 946, 3504
+A 947, 2234, 2732
+disruption 948
+Federal 951, 1520, 3055
+Union, 952, 3622
+heretofore 953
+menaced, 955
+formidably 958
+attempted. 959
+hold 961, 3458
+contemplation 964, 1118
+universal 966, 1510
+Union 973, 1027, 1120, 1129, 1132, 1219, 1234, 1316, 1343, 1410, 1696, 1734, 1835, 2176
+perpetual. 978
+Perpetuity 979
+implied, 981
+expressed, 984
+fundamental 987
+governments. 992
+safe 995
+assert 997
+government 1000, 1056
+ever 1002, 1897, 1980, 2614
+organic 1008, 1977
+termination. 1013
+Continue 1014
+execute 1016
+express 1019, 2008, 3117
+provisions 1020, 2009
+Constitution, 1024, 1241
+endure 1029
+forever, 1030
+being 1032, 2190, 2399, 2967, 3115, 3226, 3534
+impossible 1033
+destroy 1035, 1694, 3546
+except 1037
+action 1040
+provided 1042, 3303
+instrument 1046, 2952
+itself. 1047, 1130, 1418, 2630
+proper, 1057, 1641
+an 1059, 2727, 3372
+association 1060
+nature 1065
+contract 1067, 1089
+merely, 1068
+it, 1070, 1093, 2398
+acontract, 1072
+peaceably 1074
+unmade 1075
+less 1077, 1236
+parties 1081, 2344, 2476
+it? 1084, 1105, 1773, 2182
+One 1085, 2553
+it--break 1092
+speak--but 1096
+does 1097, 2028, 2041, 2054, 2268
+require 1100
+rescind 1104
+Descending 1106
+general 1109
+principles, 1110
+proposition 1114
+legal 1117, 1540, 2641
+perpetual 1122
+confirmed 1123
+history 1126
+older 1135
+formed, 1141
+fact, 1143
+Articles 1146, 1187
+Association 1148
+1774. 1150
+matured 1153
+continued 1155
+Declaration 1158
+Independence 1160
+1776. 1162
+further 1165
+matured, 1166
+faith 1169, 3224
+then 1173
+thirteen 1174
+expressly 1176, 1334, 2030, 2043, 2056
+plighted 1177
+engaged 1179
+perpetual, 1184
+Confederation 1189
+1778. 1191
+finally, 1193
+1787, 1195
+declared 1199, 1406
+objects 1200
+ordaining 1202
+establishing 1204
+"to 1208
+form 1209, 2303
+perfect 1212, 1237, 1610, 2202
+Union." 1213
+But 1214, 1938, 1975
+destruction 1216, 1748
+part 1225
+possible, 1232, 2783
+lost 1243, 3365
+vital 1245, 1936, 1946, 2450
+element 1246
+perpetuity. 1248
+follows 1250
+views 1253
+mere 1260, 1903
+motion 1261
+get 1264
+out 1265, 2741
+Union; 1268
+resolves 1270
+ordinances 1272
+effect 1275, 2396, 3052
+legally 1277
+void, 1278
+violence 1283
+against 1289, 1489
+insurrectionary 1297
+revolutionary, 1299
+circumstances. 1302
+therefore 1304
+view 1308, 1662, 1926, 2510
+unbroken, 1318
+extent 1322, 2493
+ability, 1325
+care, 1329
+itself 1333
+enjoins 1335
+faithfully 1345, 2812
+executed 1346
+States. 1350, 3145
+Doing 1351
+deem 1354, 1570
+simple 1359
+duty 1360, 2522, 3168
+part, 1363
+Ishall 1365
+perform 1366
+far 1369, 1599, 3094
+practicable 1371
+unless 1372, 1435, 1585, 1628
+rightful 1374, 2932
+masters, 1375
+American 1377, 3272
+people, 1378, 3129
+withhold 1380
+requisite 1382
+authoritative 1387
+manner 1388
+direct 1389
+contrary. 1391
+trust 1393
+regarded 1398
+menace, 1401
+constitutionally 1414
+defend 1415, 3561
+maintain 1417
+needs 1423
+bloodshed 1427
+violence, 1429
+none 1434, 3134
+forced 1438
+authority. 1442
+confided 1445
+used 1450
+hold, 1452
+occupy, 1453
+possess 1455
+places 1459
+belonging 1460
+collect 1466
+duties 1468
+imposts; 1470
+beyond 1472, 2746
+objects, 1479
+invasion, 1484
+using 1486
+anywhere. 1494
+Where 1495
+hostility 1496
+interior 1503
+locality 1504
+prevent 1513, 2220
+competent 1514, 3494
+resident 1515
+holding 1518, 3099
+offices, 1521, 1553
+attempt 1526, 1555
+obnoxious 1529
+strangers 1530
+object. 1536
+While 1537, 2921, 3318
+strict 1539
+enforce 1548
+exercise 1550, 2883
+irritating 1562
+impracticable 1566
+withal 1567
+better 1572, 2422, 3209, 3633
+forego 1574
+uses 1579
+offices. 1582
+mails, 1584
+repelled, 1586
+continue 1588, 2778
+furnished 1591
+parts 1594, 2755
+Union. 1597
+So 1598
+possible 1601, 2012, 2382
+everywhere 1604
+sense 1608, 2622
+favorable 1615
+calm 1617
+thought 1618
+reflection. 1620
+course 1622
+here 1623
+indicated 1624
+followed 1627
+current 1629
+events 1630, 1699
+experience 1632
+show 1634
+modification 1636
+change 1638, 3447
+every 1644, 1989, 3599, 3605
+exigency 1647
+best 1649, 3499
+discretion 1650
+exercised, 1653
+circumstances 1656
+actually 1657
+existing 1658, 2879, 2958
+hope 1665, 3212
+peaceful 1668
+solution 1669
+troubles 1673
+restoration 1676
+fraternal 1678
+sympathies 1679
+affections. 1681
+persons 1685, 3070
+another 1690
+seek 1692, 2545
+glad 1702
+pretext 1705
+neither 1711
+affirm 1712
+nor 1713, 2001, 2329, 2725
+deny; 1714
+such, 1719
+need 1721
+word 1724
+them. 1726, 1974, 2731, 2780
+those, 1728
+however, 1729, 3043
+really 1731
+love 1732
+speak? 1738
+Before 1739
+entering 1740
+grave 1743, 3603
+fabric, 1752
+benefits, 1756
+memories, 1758
+hopes, 1761
+ascertain 1768
+precisely 1769, 2170, 3023
+why 1770, 2153
+Will 1774, 1799
+hazard 1776
+desperate 1778
+step 1780, 3384
+possibility 1785
+portion 1788, 2157
+ills 1791, 1804
+fly 1793, 1806, 1816, 2271
+real 1797, 1813
+existence? 1798
+you, 1800
+certain 1803
+greater 1809
+ones 1814
+from, 1817
+risk 1820
+commission 1822
+fearful 1825
+mistake? 1827
+profess 1829
+maintained. 1842
+Is 1843, 2199, 2781, 3206
+true, 1845
+denied? 1857
+think 1859, 3353
+not. 1860
+Happily, 1861
+human 1863
+mind 1864
+constituted 1867
+reach 1872, 2748
+audacity 1875
+this. 1878, 2198, 2762
+Think, 1879
+can, 1882
+single 1885, 3469
+instance 1886
+denied. 1899
+numbers 1906
+majority 1908, 2084, 2143, 2235, 2296
+deprive 1910
+minority 1912, 2079, 2110, 2133
+clearly 1915
+right, 1918
+moral 1923, 2621
+point 1924
+justify 1927
+revolution; 1928
+certainly 1929
+were 1934, 3451
+case. 1943
+minorities 1949
+individuals 1952
+assured 1956
+affirmations 1960
+negations, 1962
+guaranties 1963
+prohibitions, 1965
+controversies 1970
+arise 1972
+concerning 1973
+framed 1982
+specifically 1986
+applicable 1987
+question 1990
+occur 1993
+practical 1995
+administration. 1996
+foresight 1998
+anticipate 2000
+document 2003
+length 2006
+contain 2007
+questions. 2013
+Shall 2014
+authority? 2025
+say. 2031, 2044, 2057
+May 2032
+prohibit 2034
+Territories? 2038, 2051
+Must 2045
+protect 2047
+From 2058
+questions 2059, 2320, 2451
+class 2062
+spring 2063
+controversies, 2067
+divide 2070, 2127
+majorities 2074
+minorities. 2076
+acquiesce, 2082, 2118
+must, 2085
+must 2089, 2336, 2440, 2777, 3575, 3585
+cease. 2090
+alternative, 2095
+continuing 2097
+acquiescence 2101
+side 2104, 3245, 3461
+secede 2115, 2138, 2168, 2180
+rather 2116, 2961
+precedent 2122, 2417
+turn 2125, 2547
+ruin 2129
+them, 2130, 2535
+whenever 2141
+refuses 2144
+controlled 2147
+minority. 2150
+For 2151
+instance, 2152
+new 2160, 2212, 3436
+confederacy 2161
+year 2163
+two 2165
+hence 2166
+arbitrarily 2167
+again, 2169
+portions 2172
+cherish 2185
+disunion 2186
+sentiments 2187
+educated 2191
+exact 2194
+temper 2195
+identity 2203
+interests 2205
+compose 2210
+union 2213
+produce 2216
+harmony 2217
+renewed 2221
+secession? 2222
+Plainly 2223
+central 2225
+idea 2226
+secession 2228
+essence 2231
+anarchy. 2233
+restraint 2238
+checks 2241
+limitations, 2243
+always 2245
+changing 2246
+easily 2247
+deliberate 2249
+changes 2250
+popular 2252
+opinions 2253
+true 2259
+sovereign 2260
+people. 2264, 3273
+Whoever 2265
+rejects 2266
+necessity 2270
+anarchy 2273, 2298
+despotism. 2276
+Unanimity 2277
+impossible. 2279
+rule 2281
+minority, 2284
+permanent 2287
+arrangement, 2288
+wholly 2290
+inadmissible; 2291
+that, 2293, 3098
+rejecting 2294
+principle, 2297
+despotism 2300
+left. 2308
+forget 2312
+position 2314
+assumed 2315
+decided 2324
+Supreme 2327, 2465
+Court, 2328, 2466
+deny 2332
+decisions 2335, 2462, 2549
+binding 2338
+suit 2347
+object 2351, 3373, 3392, 3402
+suit, 2354
+also 2358, 3153
+high 2362
+respect 2363
+consideration 2365
+parallel 2368
+departments 2373
+obviously 2381
+decision 2385
+erroneous 2388
+case, 2392, 2404
+still 2393, 3415, 3466, 3493
+evil 2395
+following 2397
+limited 2400
+chance 2407
+overruled 2412
+become 2415
+cases, 2420, 2645
+borne 2424
+evils 2428
+practice. 2432
+At 2433
+time, 2436
+candid 2438
+citizen 2439
+confess 2441
+policy 2445
+affecting 2452
+irrevocably 2459
+fixed 2460
+instant 2468
+ordinary 2473
+litigation 2474
+between 2475, 2730, 2779, 2814
+actions 2479
+ceased 2484
+rulers, 2489
+practically 2494
+resigned 2495
+hands 2500, 3180, 3313
+eminent 2503
+tribunal. 2504
+Nor 2505
+assault 2512
+court 2515
+judges. 2518
+shrink 2528
+decide 2530
+properly 2532
+brought 2533
+fault 2540
+theirs 2542
+purposes. 2552
+country 2557, 2758
+believes 2558, 2570
+extended, 2566
+wrong 2573
+extended. 2579
+This 2580, 2860
+substantial 2584
+dispute. 2585
+fugitive- 2587
+suppression 2598
+foreign 2601, 2678
+trade 2603
+perhaps, 2609
+community 2618
+imperfectly 2626, 2682
+supports 2627
+body 2633
+dry 2640
+obligation 2642
+few 2648
+break 2649, 3587
+over 2650, 2937, 3611
+each. 2652
+This, 2653
+think, 2655
+perfectly 2659
+cured, 2660
+worse 2665
+after 2669, 2794, 2833
+separation 2671, 2795, 3142
+sections 2674, 2721
+before. 2676
+trade, 2680
+suppressed, 2683
+ultimately 2686
+revived 2687
+without 2688, 3223, 3533
+restriction 2689
+section, 2692
+slaves, 2695
+partially 2698
+Physically 2709
+speaking, 2710
+separate. 2714
+We 2715, 3568, 3574
+remove 2718
+respective 2720
+build 2726
+impassable 2728
+wall 2729
+husband 2733
+wife 2735
+divorced 2738
+other, 2751
+remain 2767
+face 2768
+face, 2770
+intercourse, 2772, 2855
+either 2773, 2945, 3030, 3221
+amicable 2774
+hostile, 2776
+intercourse 2788
+advantageous 2790
+satisfactory 2793
+before? 2797
+Can 2798, 2808
+aliens 2799, 2815
+treaties 2801, 2809
+easier 2802
+friends 2804
+laws? 2807
+friends? 2820
+Suppose 2821
+war, 2825
+fight 2829
+always; 2830
+when, 2832
+loss 2835
+sides 2838
+gain 2841
+either, 2843
+cease 2845
+fighting, 2846
+identical 2848
+questions, 2850
+again 2857, 3624
+country, 2861
+institutions, 2864
+belongs 2865
+inhabit 2870
+it. 2871, 2898, 2974, 3166, 3407
+Whenever 2872
+grow 2875
+weary 2876
+Government, 2880, 3548
+amending 2888
+revolutionary 2892
+dismember 2895
+overthrow 2897
+ignorant 2903
+fact 2906
+worthy 2909
+patriotic 2911
+desirous 2914
+amended. 2920
+recommendation 2925
+amendments, 2927
+fully 2929
+recognize 2930
+subject, 2940
+exercised 2943
+modes 2948
+itself; 2953
+should, 2956
+circumstances, 2959
+favor 2960
+oppose 2963
+fair 2965
+opportunity 2966
+afforded 2968
+act 2972
+venture 2977
+add 2979
+convention 2984
+mode 2985
+preferable, 2987
+allows 2991
+amendments 2992, 3092
+originate 2994
+themselves, 2998
+instead 2999
+permitting 3002
+reject 3007
+propositions 3008
+originated 3009
+others, 3011
+chosen 3014
+wish 3028
+accept 3031
+refuse. 3033
+understand 3035
+proposed 3037
+amendment 3038
+Constitution--which 3041
+amendment, 3042
+seen--has 3047
+passed 3048
+Congress, 3049
+including 3067
+service. 3073
+avoid 3075
+misconstruction 3076
+said, 3081
+depart 3083
+speak 3089
+say 3097
+implied 3106
+law, 3108
+objection 3112
+irrevocable. 3119
+Chief 3121
+Magistrate 3122
+derives 3123
+referred 3133
+fix 3138
+choose, 3155
+Executive 3158
+nothing 3162
+His 3167, 3237
+administer 3171
+came 3177
+transmit 3183
+unimpaired 3185
+successor. 3190
+Why 3191
+patient 3197
+confidence 3198
+ultimate 3201
+justice 3202, 3259
+people? 3205
+world? 3215
+differences, 3219
+right? 3229
+Almighty 3232
+Ruler 3233
+Nations, 3235
+eternal 3238
+truth 3239, 3256
+justice, 3241
+North, 3248
+yours 3251
+South, 3254
+prevail 3262
+tribunal 3269
+By 3274
+live 3283
+wisely 3288
+servants 3292
+mischief, 3297
+wisdom 3302
+return 3306
+short 3316, 3343
+intervals. 3317
+retain 3321
+virtue 3323
+vigilance 3325
+extreme 3330
+wickedness 3332
+folly 3334
+seriously 3337
+injure 3338
+space 3344
+years. 3347
+My 3348
+countrymen, 3349
+calmly 3354
+subject. 3360
+Nothing 3361
+valuable 3362
+taking 3367, 3397
+time. 3368
+hurry 3375
+hot 3380
+haste 3381
+deliberately, 3390
+frustrated 3395, 3405
+time; 3398
+Such 3408
+dissatisfied 3414, 3457, 3509
+unimpaired, 3420
+and, 3421
+sensitive 3424
+point, 3425
+framing 3431
+it; 3433
+immediate 3441
+power, 3442
+would, 3445
+either. 3448
+admitted 3452
+dispute, 3464
+reason 3471
+precipitate 3473
+action. 3474
+Intelligence, 3475
+patriotism, 3476
+Christianity, 3477
+firm 3480
+reliance 3481
+Him 3483
+yet 3487, 3616
+forsaken 3488
+favored 3490
+land 3491
+adjust 3496
+way 3500
+hands, 3507
+fellow-countrymen, 3510
+mine, 3514
+momentous 3517
+issue 3518
+civil 3520
+war. 3521
+assail 3526
+You 3528, 3538
+conflict 3532
+yourselves 3535
+aggressors. 3537
+registered 3542
+heaven 3544
+solemn 3555
+"preserve, 3558
+protect, 3559
+it." 3562
+am 3564
+loath 3565
+close. 3567
+enemies, 3571
+friends. 3573
+enemies. 3578
+Though 3579
+passion 3580
+strained 3583
+bonds 3589
+affection. 3591
+mystic 3593
+chords 3594
+memory, 3596
+stretching 3597
+battlefield 3600
+patriot 3602
+living 3606
+heart 3607
+hearthstone 3609
+broad 3613
+land, 3614
+swell 3617
+chorus 3619
+touched, 3625
+be, 3630
+angels 3634
+nature. 3637
