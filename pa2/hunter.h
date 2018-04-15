@@ -14,7 +14,7 @@ public:
 
 	Hunter(Point point) : Entity(100, 10, 4, point)
 	{
-		color = Colors::Blue;
+		
 	}
 
 	virtual void draw() const override

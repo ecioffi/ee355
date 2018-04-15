@@ -6,7 +6,7 @@ class Monster : public Entity {
 public:
 	Monster(Point point) : Entity(100, 20, 1, point)
 	{
-		color = Colors::Red;
+		
 	}
 
 	virtual void draw() const override

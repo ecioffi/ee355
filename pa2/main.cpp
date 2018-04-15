@@ -5,6 +5,7 @@
 #include <chrono>
 #include <map>
 #include <list>
+#include <typeinfo>
 
 #include "hunter.h"
 #include "monster.h"
@@ -75,11 +76,19 @@ void initEntities()
 
 int main(int argc, char const *argv[])
 {
-	initEntities();
+	//initEntities();
 	GFX::drawGrid();
+	hunters.emplace_back(Point(0, 0));
+	entities.insert(make_pair(hunters.back().pos(), ref(hunters.back())));
+	hunters.back().coordinate.x=5;
+	Point p = Point(0, 0);
+	cout << entities.count(p) << endl;
+	p = Point(5, 0);
+	cout << entities.count(p) << endl;
 	for (auto& p : entities)
 	{
 		p.second.get().draw();
+		cout << typeid(p.second.get()).name() << endl;
 	}
 	GFX::show();
 }

@@ -18,15 +18,19 @@ class Entity {
 		//Equipment eqip;
 		//Sword sword;
 
-		Point coordinate;
+		
 		bool defending = false;
 	public:
+		Point coordinate;
 		Entity(int HP, int attack, int defense, Point point) : maxHP(HP), atk(attack), def(defense), coordinate(point)
 		{
 			fName = randomName();
 			lName = randomName();
 			name_ = fName + " " + lName;
 			hp = maxHP;
+			color = Colors::colorBank.back();
+			Colors::colorBank.back();
+			Colors::colorBank.pop_back();
 		}
 
 		virtual void draw() const = 0;

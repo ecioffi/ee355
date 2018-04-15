@@ -9,7 +9,7 @@ class Palico : public Entity {
 	public:
 		Palico(Point point) : Entity(50, 5, 0, point)
 		{
-			color = Colors::Green;
+			
 		}
 
 		virtual void draw() const override
