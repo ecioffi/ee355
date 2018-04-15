@@ -3,22 +3,25 @@
 #include <random>
 #include <functional>
 #include <chrono>
+#include <map>
+#include <list>
 
 #include "hunter.h"
 #include "monster.h"
 #include "palico.h"
+#include "gfx.h"
 
 using namespace std;
 
-Hunter hunter = Hunter();
-Palico palico = Palico();
-Monster monster = Monster();
-int kills = 0;
+list<Hunter> hunters;
+list<Palico> palicos;
+list<Monster> monsters;
+multimap<reference_wrapper<Point>, reference_wrapper<Entity>> entities;
 
-std::random_device rnd;
-std::mt19937 gen(rnd());
-uniform_int_distribution<int> dist(1,10);
-auto deciRand = bind(dist, gen);
+uniform_int_distribution<int> deciDist(1,10);
+uniform_int_distribution<int> gridDist(0,15);
+auto deciRand = bind(deciDist, gen);
+auto randXY = bind(gridDist, gen);
 
 bool inBounds(int value, int low, int high)
 {
@@ -27,7 +30,7 @@ bool inBounds(int value, int low, int high)
 
 void pause(std::string message)
 {
-	std::chrono::duration<double> elapsed(0);
+	chrono::duration<double> elapsed(0);
 
 	cout << message << endl;
 	while (chrono::duration_cast<chrono::milliseconds>(elapsed).count() < 100)
@@ -41,132 +44,42 @@ void pause(std::string message)
 
 void pause() { pause(""); }
 
-void queryAorD()
+Point randOpenPoint()
 {
-	string in = "";
-	while (!inBounds(stoi("0" + in), 1, 2))
+	while (true)
 	{
-		cout << "You face the charging monster, and:\n\t" <<
-				"Attack (1)\n\t" <<
-				"Defend (2)" << std::endl;
-		cin >> in;
+		Point p = Point(randXY(), randXY());
+		if (entities.count(p) == 0)
+			return p;
 	}
-
-	if (stoi("0" + in) == 1)
-		hunter.attack(monster);
-	else
-		hunter.defenseMode();
 }
 
-void queryPalico()
+void initEntities()
 {
-	if (!palico.alive())
-		return;
-
-	string in = "";
-	while (!inBounds(stoi("0" + in), 1, 2))
+	for (int i = 0; i < 3; i ++)
 	{
-		cout << "In the midst of battle, your Palico:\n\t" <<
-				"Jumps in and attacks (1)\n\t" <<
-				"Heals you            (2)" << endl;
-		cin >> in;
+		hunters.emplace_back(randOpenPoint());
+		entities.insert(make_pair(hunters.back().pos(), ref(hunters.back())));
 	}
-
-	if (stoi("0" + in) == 1)
-		palico.attack(monster);
-	else
-		palico.healEntity(hunter);
-
-}
-
-void chanceMonsterAN()
-{
-	cout << "The Rathalos stares you down and..." << endl;
-	pause();
-	int c = deciRand();
-
-	if (inBounds(c, 1, 2) && palico.alive())
-		monster.attack(palico);
-	else if (inBounds(c, 3, 9))
-		monster.attack(hunter);
-	else
-		cout << "Strangely, he does nothing." << endl;
-}
-
-void fightMonster()
-{
-	monster = Monster();
-	cout << "A Rathalos appears!" << endl;
-	while(true)
+	for (int i = 0; i < 5; i ++)
 	{
-		queryAorD();
-		if (!monster.alive())
-			break;
-		queryPalico();
-		if (!monster.alive())
-			break;
-		chanceMonsterAN();
+		palicos.emplace_back(randOpenPoint());
+		entities.insert(make_pair(palicos.back().pos(), ref(palicos.back())));
 	}
-	hunter.killMonster();
-	pause("Press 'Enter' to continue...");
-}
-
-void chanceMonster()
-{
-	if (inBounds(deciRand(), 3, 10))
+	for (int i = 0; i < 10; i ++)
 	{
-		fightMonster();
-	}
-	else
-	{
-		cout << "There are no Rathalos in the vicinity." << endl;
-		pause("Press 'Enter' to continue...");
+		monsters.emplace_back(randOpenPoint());
+		entities.insert(make_pair(monsters.back().pos(), ref(monsters.back())));
 	}
 }
 
 int main(int argc, char const *argv[])
 {
-	cout << "\033c" <<
-			"Welcome to the text-based monster-hunter world!\n" << 
-			"Your party, a hunter and his cat, Palico, are tasked to kill as many Rathalos as possible." << endl;
-	pause("Press 'Enter' to continue...");
-
-	while (true)
+	initEntities();
+	GFX::drawGrid();
+	for (auto& p : entities)
 	{
-		string in = "";
-		while (stoi("0" + in) < 1 || stoi("0" + in) > 4)
-		{
-			cout << "\033c";
-			hunter.printStatus();
-			cout << "You are walking in search of Rathalos:\n\t" <<
-					"North (1)\n\t" <<
-					"South (2)\n\t" <<
-					"East  (3)\n\t" <<
-					"West  (4)" << endl;
-			cin >> in;
-		}
-
-		Cardinal c = static_cast<Cardinal> (stoi("0" + in) - 1);
-		if (!hunter.walk(c))
-		{
-			chanceMonster();
-		}
-		else
-		{
-			if (hunter.killedMonster())
-			{
-				cout << "You have been here before...";
-				cout.flush();
-				pause();
-				cout << "The stench of the slain Rathalos scares the others away...." << endl;
-				pause();
-			}
-			else 
-			{
-				cout << "You have been here before..." << endl;
-				pause();
-				chanceMonster();
-			}
-		}
+		p.second.get().draw();
 	}
+	GFX::show();
 }

@@ -2,13 +2,34 @@
 
 #include <string>
 
+#include "types.h"
+#include "stuff.h"
+#include "names.h"
+#include "gfx.h"
+
 class Entity {
 	protected:
 		std::string name_;
-		int maxHP, hp, atk, def;
+		std::string fName, lName;
+		int age, maxHP, hp, atk, def;
+		Color color;
+		Gender gender;
+
+		//Equipment eqip;
+		//Sword sword;
+
+		Point coordinate;
 		bool defending = false;
 	public:
-		Entity(std::string name, int HP, int attack, int defense) : name_(name), maxHP(HP), atk(attack), def(defense) { hp = maxHP; }
+		Entity(int HP, int attack, int defense, Point point) : maxHP(HP), atk(attack), def(defense), coordinate(point)
+		{
+			fName = randomName();
+			lName = randomName();
+			name_ = fName + " " + lName;
+			hp = maxHP;
+		}
+
+		virtual void draw() const = 0;
 
 		void checkKilled()
 		{
@@ -59,4 +80,5 @@ class Entity {
 		std::string name() { return name_; }
 		bool alive() { return (hp > 0); }
 		virtual void defenseMode() { defending = true; }
+		std::reference_wrapper<Point> pos() { return coordinate; }
 };

@@ -3,11 +3,19 @@
 #include "entity.h"
 
 class Monster : public Entity {
-	public:
-		Monster() : Entity("Rathalos", 100, 20, 1) { }
+public:
+	Monster(Point point) : Entity(100, 20, 1, point)
+	{
+		color = Colors::Red;
+	}
 
-		void lastRites()
-		{
-			std::cout << "\nCongratulations! The corpse should frieghten the other Rathalos away from here." << std::endl;
-		}
+	virtual void draw() const override
+	{
+		GFX::drawTriangle(coordinate.x, coordinate.y, color);
+	}
+
+	void lastRites()
+	{
+		std::cout << "\nCongratulations! The corpse should frieghten the other Rathalos away from here." << std::endl;
+	}
 };

@@ -7,7 +7,15 @@
 
 class Palico : public Entity {
 	public:
-		Palico() : Entity("Palico", 50, 5, 0) { }
+		Palico(Point point) : Entity(50, 5, 0, point)
+		{
+			color = Colors::Green;
+		}
+
+		virtual void draw() const override
+		{
+			GFX::drawCircle(coordinate.x, coordinate.y, color);
+		}
 
 		void healEntity(Entity& friendly)
 		{
@@ -15,11 +23,4 @@ class Palico : public Entity {
 			heal(5);
 			friendly.heal(5);
 		}
-
-		void lastRites()
-		{
-			std::cout << "Rathalos killed your cat!!!!!" << std::endl;
-		}
-
-		void defenseMode() { }
 };
