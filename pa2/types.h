@@ -71,6 +71,7 @@ static constexpr Pair delta(Cardinal c) { return deltas[c]; }
 class Point {
 public:
 	Point(int X, int Y) : x(X), y(Y) { }
+	constexpr Point(const int X, const int Y, bool k) : x(X), y(Y) { }
 	Point() { x=0; y=0; }
 
 	int x, y;
@@ -79,6 +80,11 @@ public:
 	{
 		x = x_;
 		y = y_;
+	}
+
+	std::string str()
+	{
+		return "(" + std::to_string(x) + ", " + std::to_string(y) + ")";
 	}
 
 	Point& operator+=(const Cardinal& rhs)
@@ -97,15 +103,26 @@ public:
 	}
 };
 
+namespace std {
+
+	template<> struct hash<std::reference_wrapper<Point>>
+	{
+		std::size_t operator()(const Point& p) const noexcept
+		{
+			return p.x << 15 + p.y;
+		}
+	};
+}
+
 // Point operator+(const Point& lhs, const Cardinal& rhs)
 // {
 // 	Point r = Point(lhs.x + delta(rhs).x, lhs.y + delta(rhs).y);
 // 	return r;
 // }
 
-bool operator<(const Point& lhs, const Point& rhs)
+bool operator==(const Point& lhs, const Point& rhs)
 {
-	return lhs.x < rhs.x || (!(rhs.x < lhs.x) && lhs.y < rhs.y);
+	return (lhs.x == rhs.x) && (lhs.y == rhs.y);
 }
 
 static inline std::string pairText(const Point& p)

@@ -5,24 +5,16 @@
 #include <chrono>
 #include <map>
 #include <list>
-#include <typeinfo>
 
-#include "hunter.h"
-#include "monster.h"
-#include "palico.h"
+#include "mastermap.h"
 #include "gfx.h"
 
 using namespace std;
 
-list<Hunter> hunters;
-list<Palico> palicos;
-list<Monster> monsters;
-multimap<reference_wrapper<Point>, reference_wrapper<Entity>> entities;
-
 uniform_int_distribution<int> deciDist(1,10);
-uniform_int_distribution<int> gridDist(0,15);
 auto deciRand = bind(deciDist, gen);
-auto randXY = bind(gridDist, gen);
+
+MasterMap mm;
 
 bool inBounds(int value, int low, int high)
 {
@@ -45,50 +37,28 @@ void pause(std::string message)
 
 void pause() { pause(""); }
 
-Point randOpenPoint()
-{
-	while (true)
-	{
-		Point p = Point(randXY(), randXY());
-		if (entities.count(p) == 0)
-			return p;
-	}
-}
-
 void initEntities()
 {
 	for (int i = 0; i < 3; i ++)
-	{
-		hunters.emplace_back(randOpenPoint());
-		entities.insert(make_pair(hunters.back().pos(), ref(hunters.back())));
-	}
+		mm.newHunter(mm.randOpenPoint());
+
 	for (int i = 0; i < 5; i ++)
-	{
-		palicos.emplace_back(randOpenPoint());
-		entities.insert(make_pair(palicos.back().pos(), ref(palicos.back())));
-	}
+		mm.newPalico(mm.randOpenPoint());
+
 	for (int i = 0; i < 10; i ++)
-	{
-		monsters.emplace_back(randOpenPoint());
-		entities.insert(make_pair(monsters.back().pos(), ref(monsters.back())));
-	}
+		mm.newMonster(mm.randOpenPoint());
 }
 
 int main(int argc, char const *argv[])
 {
-	//initEntities();
+	initEntities();
+
 	GFX::drawGrid();
-	hunters.emplace_back(Point(0, 0));
-	entities.insert(make_pair(hunters.back().pos(), ref(hunters.back())));
-	hunters.back().coordinate.x=5;
-	Point p = Point(0, 0);
-	cout << entities.count(p) << endl;
-	p = Point(5, 0);
-	cout << entities.count(p) << endl;
-	for (auto& p : entities)
+
+	for (auto& p : mm.entities)
 	{
-		p.second.get().draw();
-		cout << typeid(p.second.get()).name() << endl;
+		p.second.get().draw();;
 	}
+	
 	GFX::show();
 }

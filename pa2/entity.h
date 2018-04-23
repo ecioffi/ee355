@@ -22,6 +22,8 @@ class Entity {
 		bool defending = false;
 	public:
 		Point coordinate;
+		static Point graveyard;
+
 		Entity(int HP, int attack, int defense, Point point) : maxHP(HP), atk(attack), def(defense), coordinate(point)
 		{
 			fName = randomName();
@@ -34,6 +36,11 @@ class Entity {
 		}
 
 		virtual void draw() const = 0;
+
+		void sendToGraveyard()
+		{
+			coordinate = graveyard;
+		}
 
 		void checkKilled()
 		{
@@ -86,3 +93,5 @@ class Entity {
 		virtual void defenseMode() { defending = true; }
 		std::reference_wrapper<Point> pos() { return coordinate; }
 };
+
+Point Entity::graveyard = Point(100, 100);
