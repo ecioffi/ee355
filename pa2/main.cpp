@@ -44,91 +44,32 @@ void wait(int d = 800)
 	std::this_thread::sleep_for(dur);
 }
 
-void initEntities()
-{
-	for (int i = 0; i < 3; i ++)
-		mm.newHunter(mm.randOpenPoint());
-
-	for (int i = 0; i < 5; i ++)
-		mm.newPalico(mm.randOpenPoint());
-
-	for (int i = 0; i < 10; i ++)
-		mm.newMonster(mm.randOpenPoint());
-}
-
 void draw()
 {
 	GFX::clear();
 	GFX::drawGrid();
 
 	for (auto& p : mm.entities)
-		if (p.first != Entity::graveyard)
-			p.second.get().draw();
+		if (p.get().pos() != Entity::graveyard)
+			p.get().draw();
 
 		GFX::show();
-		//wait(100);
+		wait(100);
 }
 
 int main(int argc, char const *argv[])
 {
-	initEntities();
-	//for (int i = 0; i < 3; i ++)
-	//mm.newHunter(Point(0, 0));
-	//mm.newPalico(Point(0, 0));
-	//mm.newPalico(Point(0, 0));
-	// for (int i = 0; i < 3; i ++)
-	// 	mm.newHunter(Point(0, 5));
-	while (false)
-	{
-		draw();
-		mm.hunters.back().move();
-	}
+	mm.initEntities();
 
+	draw();
 	while (mm.monsters.size() > 0 && (mm.hunters.size() + mm.palicos.size()) > 0)
 	{
-		//break;
-		draw();
-
-		std::list<std::list<reference_wrapper<Entity>>> squares;
-		for (auto it = mm.entities.begin(), next = mm.entities.begin(); it != mm.entities.end(); it = next)
-		{
-			while (next != mm.entities.end() && next->first == it->first)
-				++next;
-			//std::cout << "new sq: " << it->first.get().str() << endl;
-
-			list<reference_wrapper<Entity>> sq;
-			for (; it != next; ++it)
-				sq.push_back(it->second);
-
-			squares.push_back(sq);
-		}
-
-		std::cout << "done" << endl;
-
-		for (auto& sq : squares)
-		{
-			if (sq.size() == 1)
-				continue;
-			for (auto& e : sq)
-			{
-				//std::cout << typeid(e.get()).name() << endl;
-				e.get().interact(sq);
-			}
-		}
-
-		for (auto& sq : squares)
-		{
-			for (auto& e : sq)
-			{
-				if (!e.get().inYard())
-				{
-					e.get().move();
-				}
-			}
-		}
-
-		mm.print();
+		for (auto& e : mm.entities)
+			e.get().interact(mm.entities);
 		mm.emptyGraveyard();
-		mm.print();
+		for (auto& e : mm.entities)
+			e.get().move();
+		draw();
 	}
+		draw();
 }

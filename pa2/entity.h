@@ -110,4 +110,5 @@ class Entity {
 		std::string name() { return name_; }
 		bool alive() { return (hp > 0); }
 		bool dead() { return !alive(); }
+		std::reference_wrapper<Point> pos() { return std::ref(coordinate); }
 };

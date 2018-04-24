@@ -21,8 +21,12 @@ public:
 		if (dead())
 			return;
 		for (auto& e : entities)
+		{
+			if (e.get().coordinate != coordinate)
+				continue;
 			if (e.get().alive() && typeid(e.get()) != typeid(Monster))
 				battle(e);
+		}
 	}
 
 	virtual void draw() override
@@ -60,6 +64,8 @@ public:
 			return;
 		for (auto& e : entities)
 		{
+			if (e.get().coordinate != coordinate)
+				continue;
 			if (e.get().alive() && typeid(e.get()) == typeid(Monster))
 				battle(e);
 		}
@@ -121,6 +127,8 @@ public:
 		for (auto& ex : entities)
 		{
 			Entity& e = ex.get();
+			if (e.coordinate != coordinate)
+				continue;
 			if (alive())
 			{
 				if (typeid(e) == typeid(Hunter) && !champion && !dynamic_cast<Hunter&>(e).champion)
