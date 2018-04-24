@@ -24,7 +24,8 @@ class Entity {
 	public:
 		Point coordinate;
 		static Point graveyard;
-		std::string typeName;
+		virtual std::string typeName() = 0;
+		Color getColor() { return color; }
 
 		Entity(int HP, int attack, int defense, Point point) : maxHP(HP), atk(attack), def(defense), coordinate(point)
 		{
@@ -37,9 +38,8 @@ class Entity {
 			Colors::colorBank.pop_back();
 		}
 
-		virtual bool isEnemy(Entity& e) = 0;
 		virtual void interact(std::list<std::reference_wrapper<Entity>>& entities) = 0;
-		virtual void draw() const = 0;
+		virtual void draw() = 0;
 
 		void sendToGraveyard()
 		{
@@ -53,18 +53,18 @@ class Entity {
 
 		void checkKilled()
 		{
-			if (hp == 0)
+			if (dead())
 			{
-				std::cout << typeName << " " << name_ << " has been defeated!" << std::endl;
-				sendToGraveyard();
+				std::cout << typeName() << name_ << " has been defeated!" << std::endl;
 				lastRites();
+				sendToGraveyard();
 			}
 		}
 
 		void attack(Entity& enemy)
 		{
-			std::cout << typeName << " " << name_ << " attacks " << enemy.name_ << "! " <<
-						 enemy.typeName << " " << enemy.name_ << "'s HP drops from " << enemy.hp << " to ";
+			std::cout << typeName() << name_ << " attacks " << enemy.typeName() << enemy.name_ << "! " <<
+						 "Her HP drops from " << enemy.hp << " to ";
 			enemy.hp = std::max(enemy.hp - std::max(0, atk - enemy.def), 0);
 			std::cout << enemy.hp << "." << std::endl;
 			enemy.checkKilled();
@@ -96,19 +96,18 @@ class Entity {
 			}
 		}
 
-		/*void defend(Entity& enemy)
+		virtual void move()
 		{
-			defending = false;
-			std::cout << typeName << " " << name_ << " defends against " << enemy.name_ << "! ";
-			std::cout << name_ << "'s HP drops from " << hp << " to ";
-			hp = std::max(hp - std::max(enemy.atk - (def * 2), 0), 0);
-			std::cout << hp << "." << std::endl;
-			checkKilled();
-		}*/
+			Cardinal c = randCardinal();
+			while ((coordinate + c).outOfBounds())
+				c = randCardinal();
+
+			coordinate += c;
+		}
 
 		virtual void lastRites() { }
 		virtual void divorce() { } //KLUDGE MUST FIX!!!!!! everything is a kludge lololll
 		std::string name() { return name_; }
 		bool alive() { return (hp > 0); }
-		std::reference_wrapper<Point> pos() { return coordinate; }
+		bool dead() { return !alive(); }
 };

@@ -3,9 +3,12 @@
 #include <string>
 #include <random>
 #include <vector>
+#include <functional>
 
 std::random_device rnd;
 std::mt19937 gen(rnd());
+std::uniform_int_distribution<int> cardDist(0, 7);
+auto randCard = bind(cardDist, gen);
 
 enum Gender {
 	Male,
@@ -49,11 +52,6 @@ namespace Colors {
 	std::vector<Color> colorBank = {Red, Green, Blue, Orange, Purple, Cyan, Magenta, Lime, Pink, Teal, Lavender, Brown, Maroon, Mint, Olive, Coral, Navy, Grey};
 };
 
-struct Pair {
-	constexpr Pair(int X, int Y) : x(X), y(Y) { }
-	int x, y;
-};
-
 enum Cardinal {
 	North,
 	NorthEast,
@@ -65,13 +63,15 @@ enum Cardinal {
 	NorthWest
 };
 
-static constexpr Pair deltas[] = { Pair(0, 1), Pair(1, 1), Pair(1, 0), Pair(1, -1), Pair(0, -1), Pair(-1, -1), Pair(-1, 0), Pair(-1, 1) };
-static constexpr Pair delta(Cardinal c) { return deltas[c]; }
+Cardinal randCardinal()
+{
+	return static_cast<Cardinal>(randCard());
+}
 
 class Point {
 public:
-	Point(int X, int Y) : x(X), y(Y) { }
-	constexpr Point(const int X, const int Y, bool k) : x(X), y(Y) { }
+	Point(short X, short Y) : x(X), y(Y) { }
+	constexpr Point(const int X, const int Y) : x(X), y(Y) { }
 	Point() { x=0; y=0; }
 
 	int x, y;
@@ -87,37 +87,23 @@ public:
 		return "(" + std::to_string(x) + ", " + std::to_string(y) + ")";
 	}
 
-	Point& operator+=(const Cardinal& rhs)
+	bool outOfBounds()
 	{
-		//std::cout << "test" << std::endl;
-		x += delta(rhs).x;
-		y += delta(rhs).y;
-		return *this;
-    }
-
-    friend Point operator+(Point lhs, const Cardinal& rhs)
-	{
-		lhs.x += delta(rhs).x;
-		lhs.y += delta(rhs).y;
-		return lhs;
+		return (x < 0) || (x > 15) || (y < 0) || (y > 15);
 	}
+
+	Point& operator+=(const Cardinal& rhs);
 };
 
-// Point operator+(const Point& lhs, const Cardinal& rhs)
-// {
-// 	Point r = Point(lhs.x + delta(rhs).x, lhs.y + delta(rhs).y);
-// 	return r;
-// }
+static constexpr Point deltas[] = { Point(0, 1), Point(1, 1), Point(1, 0), Point(1, -1), Point(0, -1), Point(-1, -1), Point(-1, 0), Point(-1, 1) };
+static constexpr Point delta(Cardinal c) { return deltas[c]; }
 
-namespace std {
-
-	template<> struct hash<std::reference_wrapper<Point>>
-	{
-		std::size_t operator()(const Point& p) const noexcept
-		{
-			return p.x << 15 + p.y;
-		}
-	};
+Point& Point::operator+=(const Cardinal& rhs)
+{
+	//std::cout << "test" << std::endl;
+	x += delta(rhs).x;
+	y += delta(rhs).y;
+	return *this;
 }
 
 bool operator<(const Point& lhs, const Point& rhs)
@@ -135,7 +121,13 @@ bool operator!=(const Point& lhs, const Point& rhs)
 	return (lhs.x != rhs.x) || (lhs.y != rhs.y);
 }
 
-static inline std::string pairText(const Point& p)
+static inline std::string PointText(const Point& p)
 {
 	return "(" + std::to_string(p.x) + ", " + std::to_string(p.y) + ")";
+}
+
+Point operator+(const Point& lhs, const Cardinal& rhs)
+{
+	Point r = Point(lhs.x + delta(rhs).x, lhs.y + delta(rhs).y);
+	return r;
 }

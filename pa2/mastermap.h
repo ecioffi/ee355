@@ -19,7 +19,7 @@ public:
 	std::list<Palico>& palicos = palicoB.list;
 	std::list<Monster>& monsters = monsterB.list;
 
-	std::multimap<std::reference_wrapper<Point>, std::reference_wrapper<Entity>> entities;
+	std::multiset<std::reference_wrapper<Entity>> entities;
 
 	MasterMap()
 	{
@@ -39,19 +39,19 @@ public:
 	void newHunter(Point p)
 	{
 		hunters.emplace_back(p);
-		entities.insert(make_pair(hunters.back().pos(), std::ref(hunters.back())));
+		entities.insert(std::make_pair(std::ref(hunters.back().coordinate), std::ref(hunters.back())));
 	}
 
 	void newPalico(Point p)
 	{
 		palicos.emplace_back(p);
-		entities.insert(make_pair(palicos.back().pos(), std::ref(palicos.back())));
+		entities.insert(std::make_pair(std::ref(palicos.back().coordinate), std::ref(palicos.back())));
 	}
 
 	void newMonster(Point p)
 	{
 		monsters.emplace_back(p);
-		entities.insert(make_pair(monsters.back().pos(), std::ref(monsters.back())));
+		entities.insert(std::make_pair(std::ref(monsters.back().coordinate), std::ref(monsters.back())));
 	}
 
 	void emptyGraveyard()
@@ -73,7 +73,8 @@ public:
 		for (auto& p : entities)
 		{
 			std::cout << typeid(p.second.get()).name() << " at ";
-			std::cout << p.second.get().coordinate.str() << std::endl;
+			std::cout << p.second.get().coordinate.str();
+			std::cout << (p.first == Entity::graveyard) << std::endl;
 		}
 		std::cout << std::endl;
 	}

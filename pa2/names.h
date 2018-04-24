@@ -48,7 +48,7 @@ const std::vector<std::string> names = {
 "STEPHANIE",
 "CAROLYN",
 "CHRISTINE",
-"MARIE"}/*,
+"MARIE",
 "JANET",
 "CATHERINE",
 "FRANCES",
@@ -4279,7 +4279,7 @@ const std::vector<std::string> names = {
 "ANNELLE",
 "ANGILA",
 "ALONA",
-"ALLYN" }; */
+"ALLYN" }
 ;
 
 std::uniform_int_distribution<int> nameDist(0, names.size() - 1);

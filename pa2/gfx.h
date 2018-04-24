@@ -36,15 +36,21 @@ namespace GFX {
 	}
 
 	//grid x,y
-	void drawSquare(int x, int y, Color c)
+	void drawSquare(int x, int y, Color c, int s = 25)
 	{
-		for (int i = 32*x + 8; i < (32*x + 24); i++)
+		int d = 32 - s;
+		for (int i = 32*x + d; i < (32*(x+1) - d); i++)
 		{
-			for (int j = 32*y + 8; j < (32*y + 24); j++)	
+			for (int j = 32*y + d; j < (32*(y+1) - d); j++)	
 			{
 				setPixel(i, j, c);
 			}
 		}
+	}
+
+	void drawSmallSquare(int x, int y, Color c)
+	{
+		drawSquare(x, y, c, 21);
 	}
 
 	//grid x,y
@@ -62,19 +68,23 @@ namespace GFX {
 	}
 
 	//grid x,y
-	void drawCircle(int x, int y, Color c)
+	void drawCircle(int x, int y, Color c, int r = 81)
 	{
 		for (int i = 32*x; i < (x+1)*32; i++)
 		{
 			for (int j = 32*y; j < (y+1)*32; j++)
 			{
-				if (pow((32*x) + 16 - i, 2.0) + pow((32*y) + 16 - j, 2.0) <= 49)
+				if (pow((32*x) + 16 - i, 2.0) + pow((32*y) + 16 - j, 2.0) <= r)
 				{
 					setPixel(i, j, c);
 				}
 			}
 		}
+	}
 
+	void drawLargeCircle(int x, int y, Color c)
+	{
+		drawCircle(x, y, c, 121);
 	}
 
 	void drawGrid()

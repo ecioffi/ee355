@@ -5,6 +5,7 @@
 #include <chrono>
 #include <map>
 #include <list>
+#include <thread>
 
 #include "mastermap.h"
 #include "gfx.h"
@@ -37,6 +38,12 @@ void pause(std::string message)
 
 void pause() { pause(""); }
 
+void wait(int d = 800)
+{
+	std::chrono::milliseconds dur(d);
+	std::this_thread::sleep_for(dur);
+}
+
 void initEntities()
 {
 	for (int i = 0; i < 3; i ++)
@@ -49,48 +56,79 @@ void initEntities()
 		mm.newMonster(mm.randOpenPoint());
 }
 
-int main(int argc, char const *argv[])
+void draw()
 {
-	//initEntities();
-	for (int i = 0; i < 3; i ++)
-		mm.newHunter(Point(0, 0));
-	for (int i = 0; i < 3; i ++)
-		mm.newHunter(Point(0, 5));
 	GFX::clear();
 	GFX::drawGrid();
 
-	std::list<std::list<reference_wrapper<Entity>>> squares;
-	for (auto it = mm.entities.begin(), next = mm.entities.begin(); it != mm.entities.end(); it = next)
-	{
-		while (next != mm.entities.end() && next->first == it->first)
-			++next;
-		std::cout << "new sq: " << it->first.get().str() << endl;
+	for (auto& p : mm.entities)
+		if (p.first != Entity::graveyard)
+			p.second.get().draw();
 
-		if (mm.entities.count(it->first) > 1)
+		GFX::show();
+		//wait(100);
+}
+
+int main(int argc, char const *argv[])
+{
+	initEntities();
+	//for (int i = 0; i < 3; i ++)
+	//mm.newHunter(Point(0, 0));
+	//mm.newPalico(Point(0, 0));
+	//mm.newPalico(Point(0, 0));
+	// for (int i = 0; i < 3; i ++)
+	// 	mm.newHunter(Point(0, 5));
+	while (false)
+	{
+		draw();
+		mm.hunters.back().move();
+	}
+
+	while (mm.monsters.size() > 0 && (mm.hunters.size() + mm.palicos.size()) > 0)
+	{
+		//break;
+		draw();
+
+		std::list<std::list<reference_wrapper<Entity>>> squares;
+		for (auto it = mm.entities.begin(), next = mm.entities.begin(); it != mm.entities.end(); it = next)
 		{
+			while (next != mm.entities.end() && next->first == it->first)
+				++next;
+			//std::cout << "new sq: " << it->first.get().str() << endl;
+
 			list<reference_wrapper<Entity>> sq;
 			for (; it != next; ++it)
-			{
 				sq.push_back(it->second);
-			}
 
 			squares.push_back(sq);
 		}
-	}
 
-	for (auto& sq : squares)
-	{
-		for (auto& e : sq)
+		std::cout << "done" << endl;
+
+		for (auto& sq : squares)
 		{
-			e.get().interact(sq);
+			if (sq.size() == 1)
+				continue;
+			for (auto& e : sq)
+			{
+				//std::cout << typeid(e.get()).name() << endl;
+				e.get().interact(sq);
+			}
 		}
-	}
 
-	for (auto& p : mm.entities)
-	{
-		if (p.first != Entity::graveyard)
-			p.second.get().draw();
-	}
+		for (auto& sq : squares)
+		{
+			for (auto& e : sq)
+			{
+				if (!e.get().inYard())
+				{
+					e.get().move();
+				}
+			}
+		}
 
-	GFX::show();
+		mm.print();
+		mm.emptyGraveyard();
+		mm.print();
+	}
 }
