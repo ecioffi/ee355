@@ -51,14 +51,46 @@ void initEntities()
 
 int main(int argc, char const *argv[])
 {
-	initEntities();
-
+	//initEntities();
+	for (int i = 0; i < 3; i ++)
+		mm.newHunter(Point(0, 0));
+	for (int i = 0; i < 3; i ++)
+		mm.newHunter(Point(0, 5));
+	GFX::clear();
 	GFX::drawGrid();
+
+	std::list<std::list<reference_wrapper<Entity>>> squares;
+	for (auto it = mm.entities.begin(), next = mm.entities.begin(); it != mm.entities.end(); it = next)
+	{
+		while (next != mm.entities.end() && next->first == it->first)
+			++next;
+		std::cout << "new sq: " << it->first.get().str() << endl;
+
+		if (mm.entities.count(it->first) > 1)
+		{
+			list<reference_wrapper<Entity>> sq;
+			for (; it != next; ++it)
+			{
+				sq.push_back(it->second);
+			}
+
+			squares.push_back(sq);
+		}
+	}
+
+	for (auto& sq : squares)
+	{
+		for (auto& e : sq)
+		{
+			e.get().interact(sq);
+		}
+	}
 
 	for (auto& p : mm.entities)
 	{
-		p.second.get().draw();;
+		if (p.first != Entity::graveyard)
+			p.second.get().draw();
 	}
-	
+
 	GFX::show();
 }

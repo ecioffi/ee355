@@ -20,7 +20,10 @@ namespace {
 	{
 		setPixel(x, y, c.r, c.g, c.b);
 	}
+};
 
+namespace GFX {
+	
 	void clear()
 	{
 		for (int x = 0; x < SIZE; x++)
@@ -31,10 +34,8 @@ namespace {
 			}
 		}
 	}
-};
 
-namespace GFX {
-//grid x,y
+	//grid x,y
 	void drawSquare(int x, int y, Color c)
 	{
 		for (int i = 32*x + 8; i < (32*x + 24); i++)
@@ -78,7 +79,6 @@ namespace GFX {
 
 	void drawGrid()
 	{
-		clear();
 		//draw y-gird lines
 		for (int x = 0; x < SIZE; x+=32)
 		{

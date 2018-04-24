@@ -103,6 +103,12 @@ public:
 	}
 };
 
+// Point operator+(const Point& lhs, const Cardinal& rhs)
+// {
+// 	Point r = Point(lhs.x + delta(rhs).x, lhs.y + delta(rhs).y);
+// 	return r;
+// }
+
 namespace std {
 
 	template<> struct hash<std::reference_wrapper<Point>>
@@ -114,15 +120,19 @@ namespace std {
 	};
 }
 
-// Point operator+(const Point& lhs, const Cardinal& rhs)
-// {
-// 	Point r = Point(lhs.x + delta(rhs).x, lhs.y + delta(rhs).y);
-// 	return r;
-// }
+bool operator<(const Point& lhs, const Point& rhs)
+{
+	return lhs.x < rhs.x || (!(lhs.x < rhs.x) && (lhs.y < rhs.y));
+}
 
 bool operator==(const Point& lhs, const Point& rhs)
 {
 	return (lhs.x == rhs.x) && (lhs.y == rhs.y);
+}
+
+bool operator!=(const Point& lhs, const Point& rhs)
+{
+	return (lhs.x != rhs.x) || (lhs.y != rhs.y);
 }
 
 static inline std::string pairText(const Point& p)
