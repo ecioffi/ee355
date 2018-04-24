@@ -77,7 +77,7 @@ public:
 		{
 			std::cout << typeid(p.get()).name() << " at ";
 			std::cout << p.get().coordinate.str() << " ";
-			std::cout << "inYard: " << (p.get().pos() == Entity::graveyard) << std::endl;
+			std::cout << "dead: " << (p.get().pos() == Entity::graveyard) << std::endl;
 		}
 		std::cout << std::endl;
 	}
