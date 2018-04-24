@@ -34,7 +34,9 @@ class PalicoBook {
 public:
 	static int mode;
 
-	std::vector<Palico> book;
+	std::vector<Palico> book = { };
+
+	PalicoBook();
 
 	void changeMode(int hp_attack);
 	void add(Palico p);
@@ -42,4 +44,4 @@ public:
 	void remove(std::string name);
 	void search(std::string name);
 	void save();
-};r
+};

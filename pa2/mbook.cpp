@@ -1,4 +1,5 @@
 #include<iostream>
+#include <fstream>
 
 #include "books.h"
 
@@ -27,7 +28,13 @@ void MonsterBook::remove(std::string fName)
 
 void MonsterBook::save()
 {
-
+	std::ofstream f;
+	f.open("Monster.txt");
+	for (auto& m : book)
+	{
+		f << m.fName << " " << m.lName << ", " << m.gender << ", " << m.age << std::endl;
+	}
+	f.close();
 }
 
 void MonsterBook::search(std::string fName)

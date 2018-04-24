@@ -1,4 +1,5 @@
 #include<iostream>
+#include <fstream>
 
 #include "books.h"
 
@@ -48,7 +49,14 @@ void HunterBook::remove(std::string fName)
 
 void HunterBook::save()
 {
-
+	std::ofstream f;
+	f.open("Hunter.txt");
+	for (auto& h : book)
+	{
+		f << h.fName << " " << h.lName << ", " << h.age << "Energy: " << h.energy << ", " << "HP: " << h.maxHP << "Attack: " << h.atk << ", Defence: ";
+		f << h.def << ", Sword: " << h.sword.name << "(" << h.sword.atk << "), Equipment: " << h.equip.name << "(" << h.equip.def << ")" << std::endl;
+	}
+	f.close();
 }
 
 void HunterBook::search(std::string fName)
