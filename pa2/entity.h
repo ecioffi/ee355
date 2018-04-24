@@ -107,6 +107,7 @@ class Entity {
 		}*/
 
 		virtual void lastRites() { }
+		virtual void divorce() { } //KLUDGE MUST FIX!!!!!! everything is a kludge lololll
 		std::string name() { return name_; }
 		bool alive() { return (hp > 0); }
 		std::reference_wrapper<Point> pos() { return coordinate; }
