@@ -1,22 +1,25 @@
 #pragma once
 
-#include <string>
 #include <random>
 #include <vector>
 #include <functional>
 
-std::random_device rnd;
-std::mt19937 gen(rnd());
-std::uniform_int_distribution<int> cardDist(0, 7);
-auto randCard = bind(cardDist, gen);
+static std::random_device rnd;
+static std::mt19937 gen(rnd());
 
-enum Gender {
-	Male,
-	Female,
-	NonBinary,
-	Fluid,
-	GenderIsSocialConstruct
+static std::uniform_int_distribution<int> cardDist(0, 7);
+static auto randCard = bind(cardDist, gen);
+static std::uniform_int_distribution<int> genderDist(0, 3);
+static auto randGender = bind(genderDist, gen);
+
+static std::vector<std::string> Genders = {
+	"Male",
+	"Female",
+	"NonBinary",
+	"Fluid"
 };
+
+static std::string randomGender() { return Genders[randGender()]; }
 
 struct Color {
  	unsigned char r, g, b;
@@ -49,7 +52,7 @@ namespace Colors {
 	constexpr Color Navy = Color(0, 0, 128);
 	constexpr Color Grey = Color(128, 128, 128);
 
-	std::vector<Color> colorBank = {Red, Green, Blue, Orange, Purple, Cyan, Magenta, Lime, Pink, Teal, Lavender, Brown, Maroon, Mint, Olive, Coral, Navy, Grey};
+	static  std::vector<Color> colorBank = {Red, Green, Blue, Orange, Purple, Cyan, Magenta, Lime, Pink, Teal, Lavender, Brown, Maroon, Mint, Olive, Coral, Navy, Grey};
 };
 
 enum Cardinal {
@@ -63,71 +66,7 @@ enum Cardinal {
 	NorthWest
 };
 
-Cardinal randCardinal()
+static Cardinal randCardinal()
 {
 	return static_cast<Cardinal>(randCard());
-}
-
-class Point {
-public:
-	Point(short X, short Y) : x(X), y(Y) { }
-	constexpr Point(const int X, const int Y) : x(X), y(Y) { }
-	Point() { x=0; y=0; }
-
-	int x, y;
-
-	void set(int x_, int y_)
-	{
-		x = x_;
-		y = y_;
-	}
-
-	std::string str()
-	{
-		return "(" + std::to_string(x) + ", " + std::to_string(y) + ")";
-	}
-
-	bool outOfBounds()
-	{
-		return (x < 0) || (x > 15) || (y < 0) || (y > 15);
-	}
-
-	Point& operator+=(const Cardinal& rhs);
-};
-
-static constexpr Point deltas[] = { Point(0, 1), Point(1, 1), Point(1, 0), Point(1, -1), Point(0, -1), Point(-1, -1), Point(-1, 0), Point(-1, 1) };
-static constexpr Point delta(Cardinal c) { return deltas[c]; }
-
-Point& Point::operator+=(const Cardinal& rhs)
-{
-	//std::cout << "test" << std::endl;
-	x += delta(rhs).x;
-	y += delta(rhs).y;
-	return *this;
-}
-
-bool operator<(const Point& lhs, const Point& rhs)
-{
-	return lhs.x < rhs.x || (!(lhs.x < rhs.x) && (lhs.y < rhs.y));
-}
-
-bool operator==(const Point& lhs, const Point& rhs)
-{
-	return (lhs.x == rhs.x) && (lhs.y == rhs.y);
-}
-
-bool operator!=(const Point& lhs, const Point& rhs)
-{
-	return (lhs.x != rhs.x) || (lhs.y != rhs.y);
-}
-
-static inline std::string PointText(const Point& p)
-{
-	return "(" + std::to_string(p.x) + ", " + std::to_string(p.y) + ")";
-}
-
-Point operator+(const Point& lhs, const Cardinal& rhs)
-{
-	Point r = Point(lhs.x + delta(rhs).x, lhs.y + delta(rhs).y);
-	return r;
 }

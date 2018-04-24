@@ -2,36 +2,34 @@
 
 #include <string>
 
-#include "types.h"
+#include "point.h"
 #include "stuff.h"
 #include "names.h"
 #include "gfx.h"
 
-std::uniform_int_distribution<int> boolDist(0,1);
-auto randBool = bind(boolDist, gen);
+static std::uniform_int_distribution<int> boolDist(0,1);
+static auto randBool = bind(boolDist, gen);
+
+static std::uniform_int_distribution<int> ageDist(7,78);
+static auto randAge = bind(ageDist, gen);
 
 class Entity {
-	protected:
-		std::string name_;
-		std::string fName, lName;
-		int age, maxHP, hp, atk, def;
-		Color color;
-		Gender gender;
-
-		//Equipment eqip;
-		//Sword sword;
-		
 	public:
+		std::string name;
+		std::string fName, lName;
+		int maxHP, hp, atk, def;
+		Color color;
+		std::string gender = randomGender();
 		Point coordinate;
+		int age = randAge();
 		static Point graveyard;
 		virtual std::string typeName() = 0;
-		Color getColor() { return color; }
 
 		Entity(int HP, int attack, int defense, Point point) : maxHP(HP), atk(attack), def(defense), coordinate(point)
 		{
 			fName = randomName();
 			lName = randomName();
-			name_ = fName + " " + lName;
+			name = fName + " " + lName;
 			hp = maxHP;
 			color = Colors::colorBank.back();
 			Colors::colorBank.back();
@@ -55,7 +53,7 @@ class Entity {
 		{
 			if (dead())
 			{
-				std::cout << typeName() << name_ << " has been defeated!" << std::endl;
+				std::cout << typeName() << name << " has been defeated!" << std::endl;
 				lastRites();
 				sendToGraveyard();
 			}
@@ -63,7 +61,7 @@ class Entity {
 
 		void attack(Entity& enemy)
 		{
-			std::cout << typeName() << name_ << " attacks " << enemy.typeName() << enemy.name_ << "! " <<
+			std::cout << typeName() << name << " attacks " << enemy.typeName() << enemy.name << "! " <<
 						 "Her HP drops from " << enemy.hp << " to ";
 			enemy.hp = std::max(enemy.hp - std::max(0, atk - enemy.def), 0);
 			std::cout << enemy.hp << "." << std::endl;
@@ -106,8 +104,7 @@ class Entity {
 		}
 
 		virtual void lastRites() { }
-		virtual void divorce() { } //KLUDGE MUST FIX!!!!!! everything is a kludge lololll
-		std::string name() { return name_; }
+		virtual void divorce() { }
 		bool alive() { return (hp > 0); }
 		bool dead() { return !alive(); }
 		std::reference_wrapper<Point> pos() { return std::ref(coordinate); }

@@ -309,10 +309,10 @@ static const std::vector<std::string> names = {
 "ALONA",
 "ALLYN" };
 
-std::uniform_int_distribution<int> nameDist(0, names.size() - 1);
-auto randIndex = bind(nameDist, gen);
+static std::uniform_int_distribution<int> nameDist(0, names.size() - 1);
+static auto randIndex = bind(nameDist, gen);
 
-std::string randomName()
+static std::string randomName()
 {
 	return names[randIndex()];
 }

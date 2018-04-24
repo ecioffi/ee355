@@ -9,8 +9,18 @@
 
 #include "mastermap.h"
 #include "gfx.h"
+#include "books.h"
 
 using namespace std;
+
+void Hunter::divorce()
+{
+	def /= 1.5;
+	partner->champion = false;
+	champion = false;
+}
+
+Point Entity::graveyard = Point(100, 100);
 
 uniform_int_distribution<int> deciDist(1,10);
 auto deciRand = bind(deciDist, gen);
@@ -59,6 +69,7 @@ void draw()
 
 int main(int argc, char const *argv[])
 {
+	//\MonsterBook mb;
 	mm.initEntities();
 
 	draw();
@@ -69,7 +80,6 @@ int main(int argc, char const *argv[])
 		mm.emptyGraveyard();
 		for (auto& e : mm.entities)
 			e.get().move();
-		draw();
+		//draw();
 	}
-		draw();
 }

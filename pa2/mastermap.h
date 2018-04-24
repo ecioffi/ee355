@@ -1,23 +1,18 @@
 #pragma once
 
-#include <set>
 #include <typeinfo>
 
 #include "types.h"
-#include "books.h"
+#include "entities.h"
 
 std::uniform_int_distribution<int> gridDist(0,15);
 auto randXY = bind(gridDist, gen);
 
 class MasterMap {
 public:
-	HunterBook hunterB;
-	PalicoBook palicoB;
-	MonsterBook monsterB;
-
-	std::list<Hunter>& hunters = hunterB.list;
-	std::list<Palico>& palicos = palicoB.list;
-	std::list<Monster>& monsters = monsterB.list;
+	std::list<Hunter> hunters;
+	std::list<Palico> palicos;
+	std::list<Monster> monsters;
 
 	std::list<std::reference_wrapper<Entity>> entities;
 

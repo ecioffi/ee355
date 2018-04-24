@@ -24,7 +24,7 @@ namespace {
 
 namespace GFX {
 	
-	void clear()
+	static void clear()
 	{
 		for (int x = 0; x < SIZE; x++)
 		{
@@ -36,7 +36,7 @@ namespace GFX {
 	}
 
 	//grid x,y
-	void drawSquare(int x, int y, Color c, int s = 25)
+	static void drawSquare(int x, int y, Color c, int s = 25)
 	{
 		int d = 32 - s;
 		for (int i = 32*x + d; i < (32*(x+1) - d); i++)
@@ -48,13 +48,13 @@ namespace GFX {
 		}
 	}
 
-	void drawSmallSquare(int x, int y, Color c)
+	static void drawSmallSquare(int x, int y, Color c)
 	{
 		drawSquare(x, y, c, 21);
 	}
 
 	//grid x,y
-	void drawTriangle(int x, int y, Color c)
+	static void drawTriangle(int x, int y, Color c)
 	{
 		int diff = 0;
 		for (int i = 32*x + 8; i < (32*x + 24); i++)
@@ -68,7 +68,7 @@ namespace GFX {
 	}
 
 	//grid x,y
-	void drawCircle(int x, int y, Color c, int r = 81)
+	static void drawCircle(int x, int y, Color c, int r = 81)
 	{
 		for (int i = 32*x; i < (x+1)*32; i++)
 		{
@@ -82,12 +82,12 @@ namespace GFX {
 		}
 	}
 
-	void drawLargeCircle(int x, int y, Color c)
+	static void drawLargeCircle(int x, int y, Color c)
 	{
 		drawCircle(x, y, c, 121);
 	}
 
-	void drawGrid()
+	static void drawGrid()
 	{
 		//draw y-gird lines
 		for (int x = 0; x < SIZE; x+=32)
@@ -107,7 +107,7 @@ namespace GFX {
 		}
 	}
 
-	void show()
+	static void show()
 	{
 		showRGBBMP(image);
 	}
