@@ -1,6 +1,7 @@
 #pragma once
 
 #include <typeinfo>
+#include <algorithm>
 
 #include "types.h"
 #include "entities.h"
@@ -72,20 +73,13 @@ public:
 	{
 		entities.remove_if([](Entity& e) { return e.coordinate == Entity::graveyard; });
 		hunters.remove_if([](Hunter& h) { return h.coordinate == Entity::graveyard; });
-
-		for (auto it = palicos.begin(); it != palicos.end(); )
-		{
-			if (it->coordinate == Entity::graveyard)
-				palicos.erase(it++);
-			else
-				++it;
-		}
-
+		//palicos.erase(std::remove_if(palicos.begin(), palicos.end(), [](Palico& p) { return p.coordinate == Entity::graveyard; }));
 		monsters.remove_if([](Monster& m) { return m.coordinate == Entity::graveyard; });
 	}
 
 	void print()
 	{
+		std::cout << entities.size() << std::endl;
 		for (auto& p : entities)
 		{
 			std::cout << typeid(p.get()).name() << " at ";

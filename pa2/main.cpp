@@ -63,4 +63,10 @@ int main(int argc, char const *argv[])
 
 		itt++;
 	}
+
+	std::cout << std::endl;
+	if (mm.hunters.empty())
+		std::cout << "All hunters DEAD. Monsters roam the earth." << std::endl;
+	else
+		std::cout << "All monster defeated -- Hunters win!" << std::endl;
 }
