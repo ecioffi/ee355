@@ -48,7 +48,7 @@ int main(int argc, char const *argv[])
 
 	draw();
 	int itt = 0;
-	while (mm.monsters.size() > 0 && mm.hunters.size() > 0)
+	while (mm.monsters.size() > 0 && !mm.hunters.empty())
 	{
 		std::cout << "ITERATION " << itt << ":" << std::endl;
 		mm.print();

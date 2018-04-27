@@ -4,15 +4,20 @@
 
 #include "types.h"
 #include "entities.h"
+#include "books.h"
 
 std::uniform_int_distribution<int> gridDist(0,15);
 auto randXY = bind(gridDist, gen);
 
 class MasterMap {
+private:
+	HunterBook hb;
+	PalicoBook pb;
+	MonsterBook mb;
 public:
-	std::list<Hunter> hunters;
-	std::list<Palico> palicos;
-	std::list<Monster> monsters;
+	std::forward_list<Hunter>& hunters = hb.data();
+	std::vector<Palico>& palicos = pb.data();
+	std::list<Monster>& monsters = mb.data();
 
 	std::list<std::reference_wrapper<Entity>> entities;
 
@@ -35,8 +40,8 @@ public:
 
 	void newHunter(Point p)
 	{
-		hunters.emplace_back(p);
-		entities.push_back(hunters.back());
+		hunters.emplace_front(p);
+		entities.push_back(hunters.front());
 	}
 
 	void newPalico(Point p)
@@ -67,7 +72,15 @@ public:
 	{
 		entities.remove_if([](Entity& e) { return e.coordinate == Entity::graveyard; });
 		hunters.remove_if([](Hunter& h) { return h.coordinate == Entity::graveyard; });
-		palicos.remove_if([](Palico& p) { return p.coordinate == Entity::graveyard; });
+
+		for (auto it = palicos.begin(); it != palicos.end(); )
+		{
+			if (it->coordinate == Entity::graveyard)
+				palicos.erase(it++);
+			else
+				++it;
+		}
+
 		monsters.remove_if([](Monster& m) { return m.coordinate == Entity::graveyard; });
 	}
 

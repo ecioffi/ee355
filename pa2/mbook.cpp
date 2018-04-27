@@ -21,6 +21,11 @@ void MonsterBook::add(std::string fname, std::string lname, std::string gender_,
 	book.unique();
 }
 
+void MonsterBook::add(Point p)
+{
+	book.emplace_back(p);
+}
+
 void MonsterBook::remove(std::string fName)
 {
 	book.remove_if([fName](Monster& m) { return m.fName == fName; });

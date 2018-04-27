@@ -42,6 +42,11 @@ void HunterBook::add(std::string fname, std::string lname, std::string gender_, 
 	book.unique();
 }
 
+void HunterBook::add(Point p)
+{
+	book.emplace_front(p);
+}
+
 void HunterBook::remove(std::string fName)
 {
 	book.remove_if([fName](Hunter& h) { return h.fName == fName; });

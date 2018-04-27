@@ -8,6 +8,7 @@ int PalicoBook::mode = 0;
 
 PalicoBook::PalicoBook()
 {
+	book.reserve(30);
 	std::make_heap(book.begin(), book.end());
 }
 
@@ -25,9 +26,15 @@ void PalicoBook::changeMode(int hp_attack)
 	std::sort_heap(book.begin(), book.end());
 }
 
-void PalicoBook::add(Palico p)
+void PalicoBook::add(std::string name_, int age_, std::string gender_, int maxHP_, int attack, Sword sw)
 {
-	book.push_back(p);
+	book.emplace_back(name_, age_, gender_, maxHP_, attack, sw);
+	std::push_heap(book.begin(), book.end());
+}
+
+void PalicoBook::add(Point p)
+{
+	book.emplace_back(p);
 	std::push_heap(book.begin(), book.end());
 }
 
