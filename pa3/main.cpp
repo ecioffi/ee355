@@ -7,6 +7,7 @@
 #include <thread>
 #include <map>
 #include <set>
+#include <vector>
 
 #include "mastermap.h"
 #include "gfx.h"
@@ -44,6 +45,17 @@ void draw()
 	GFX::show();
 }
 
+void interactSquare(std::list<std::reference_wrapper<Entity>> entitiesOnSq)
+{
+	for (auto& e : entitiesOnSq)
+		e.get().interact(entitiesOnSq);
+}
+
+std::thread interactSquareThread(std::list<std::reference_wrapper<Entity>> entitiesOnSq)
+{
+	return std::thread([=] { interactSquare(entitiesOnSq); });
+}
+
 int main(int argc, char const *argv[])
 {
 	mm.initEntities();
@@ -57,7 +69,7 @@ int main(int argc, char const *argv[])
 
 		std::multimap<Point, std::reference_wrapper<Entity>> entities;
 		std::set<Point> squares;
-		std::list<std::thread> threads;
+		std::vector<std::thread> threads;
 
 		for (auto e : mm.entities)
 		{
@@ -73,12 +85,7 @@ int main(int argc, char const *argv[])
 	 		{
  				entitiesOnSq.push_front(i->second);
 	 		}
-
-	 		for (auto& e : entitiesOnSq)
-	 		{
-	 			//Entity* ex = &(e.get());
-				threads.push_front(e.interactThreaded(entitiesOnSq));
-	 		}
+	 		threads.push_back(interactSquareThread(entitiesOnSq));
  		}
 
  		for(auto& t : threads)

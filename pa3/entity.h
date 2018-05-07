@@ -40,11 +40,6 @@ class Entity {
 		virtual void interact(std::list<std::reference_wrapper<Entity>>& entities) = 0;
 		virtual void draw() = 0;
 
-		std::thread interactThread(std::list<std::reference_wrapper<Entity>>& entities)
-		{
-			return std::thread([=] { interact(entities); });
-      	}
-
 		void sendToGraveyard()
 		{
 			coordinate = graveyard;

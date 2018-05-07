@@ -72,9 +72,9 @@ public:
 	void emptyGraveyard()
 	{
 		entities.remove_if([](Entity& e) { return e.coordinate == Entity::graveyard; });
-		hunters.remove_if([](Hunter& h) { return h.coordinate == Entity::graveyard; });
+		//hunters.remove_if([](Hunter& h) { return h.coordinate == Entity::graveyard; });
 		//palicos.erase(std::remove_if(palicos.begin(), palicos.end(), [](Palico& p) { return p.coordinate == Entity::graveyard; }));
-		monsters.remove_if([](Monster& m) { return m.coordinate == Entity::graveyard; });
+		//monsters.remove_if([](Monster& m) { return m.coordinate == Entity::graveyard; });
 	}
 
 	void print()
