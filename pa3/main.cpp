@@ -95,7 +95,7 @@ int main(int argc, char const *argv[])
  		for (auto& e : mm.entities)
 			e.get().move();
 		draw();
-		wait();
+		//wait();
 
 		itt++;
 	}
