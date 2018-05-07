@@ -5,6 +5,8 @@
 #include <list>
 #include <chrono>
 #include <thread>
+#include <map>
+#include <set>
 
 #include "mastermap.h"
 #include "gfx.h"
@@ -53,10 +55,37 @@ int main(int argc, char const *argv[])
 		std::cout << "ITERATION " << itt << ":" << std::endl;
 		mm.print();
 
-		for (auto& e : mm.entities)
-			e.get().interact(mm.entities);
-		mm.emptyGraveyard();
-		for (auto& e : mm.entities)
+		std::multimap<Point, std::reference_wrapper<Entity>> entities;
+		std::set<Point> squares;
+		std::list<std::thread> threads;
+
+		for (auto e : mm.entities)
+		{
+			entities.insert(std::make_pair(e.get().coordinate, e));
+			squares.insert(e.get().coordinate);
+		}
+
+		for (auto& sq : squares)
+		{
+			auto range = entities.equal_range(sq);
+			std::list<std::reference_wrapper<Entity>> entitiesOnSq;
+	 		for (auto i = range.first; i != range.second; ++i)
+	 		{
+ 				entitiesOnSq.push_front(i->second);
+	 		}
+
+	 		for (auto& e : entitiesOnSq)
+	 		{
+	 			//Entity* ex = &(e.get());
+				threads.push_front(e.interactThreaded(entitiesOnSq));
+	 		}
+ 		}
+
+ 		for(auto& t : threads)
+ 			t.join();
+
+ 		mm.emptyGraveyard();
+ 		for (auto& e : mm.entities)
 			e.get().move();
 		draw();
 		wait();
