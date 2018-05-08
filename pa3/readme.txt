@@ -1,1 +1,1 @@
-Everything works. No references. Compiles with --std=c++11
+Everything works. No references. Flags --std=c++11 -pthread neccecary in Makefile
